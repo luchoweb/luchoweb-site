@@ -1,0 +1,19 @@
+.section {
+  background-color: white;
+  border: 2px solid #f7f7f7;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  padding: 1.5rem 2rem;
+
+  &:last-child {
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 640px) {
+    padding: 1rem;
+  }
+
+  &__title {
+    margin-bottom: 1.5rem;
+  }
+}

@@ -1,0 +1,19 @@
+.languages {
+  &__list {
+    .simple-card {
+      padding: 1rem;
+      min-width: 140px;
+    }
+  }
+}
+
+.lang {
+  &__name {
+    font-size: 1.2rem;
+    margin-bottom: .4em !important;
+  }
+
+  &__level {
+    font-weight: var(--fw-normal);
+  }     
+}
