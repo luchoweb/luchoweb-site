@@ -1,0 +1,33 @@
+.company {
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #f7f7f7;
+  }
+
+  &__logo {
+    background-color: white;
+    border: 2px solid #f7f7f7;
+    border-radius: 50%;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    width: 60px;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: auto;
+    }
+  }
+
+  &__name {
+    strong {
+      font-size: 1.2rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+}

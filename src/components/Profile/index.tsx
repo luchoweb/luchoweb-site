@@ -1,5 +1,3 @@
-import photo from "../../assets/photo.jpeg";
-
 import "./styles.scss";
 
 const Profile = () => {
@@ -7,7 +5,7 @@ const Profile = () => {
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md-8 d-flex align-items-center gap-4">
         <picture className="profile__photo">
-          <img src={photo} alt="Luis Rodríguez" height={80} width={80} />
+          <img src="/images/photo.jpeg" alt="Luis Rodríguez" height={80} width={80} />
         </picture>
 
         <div className="profile__info">

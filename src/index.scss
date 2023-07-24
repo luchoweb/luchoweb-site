@@ -3,12 +3,14 @@
   --color-purple: #7106ff;
   --color-border: #e1e2e2;
   --color-linkedin: #2d64bc;
+  --color-gray: #f5f5f5;
   --fw-normal: 300;
   --fw-bold: 700;
 }
 
 body {
   background-color: #f8f9fb;
+  color: var(--bs-dark);
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: var(--fw-normal);
@@ -32,7 +34,7 @@ strong {
 }
 
 .box-icon {
-  background-color: #f5f5f5;
+  background-color: var(--color-gray);
   border-radius: 0.5rem;
   height: 40px;
   line-height: normal;

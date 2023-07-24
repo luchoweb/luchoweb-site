@@ -1,4 +1,4 @@
-import { Information, Languages, Profile, Resume, Section, Skills } from "../../components";
+import { Experience, Information, Languages, Profile, Resume, Section, Skills } from "../../components";
 
 import "./styles.scss";
 
@@ -18,7 +18,7 @@ const HomePage = () => {
       </Section>
 
       <Section customClasses="experience" title="Experience">
-        <p>Under construction...</p>
+        <Experience />
       </Section>
 
       <Section customClasses="education" title="Education">

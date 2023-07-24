@@ -1,5 +1,3 @@
-import "./styles.scss";
-
 const Information = () => {
   return (
     <div className="row align-items-center">
