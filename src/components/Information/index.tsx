@@ -41,7 +41,7 @@ const Information = () => {
           </div>
           <p className="m-0">
             <strong className="d-block">Remote</strong>
-            <span className="text-secondary">Work Type</span>
+            <span className="text-secondary">Work type</span>
           </p>
         </div>
       </div>
