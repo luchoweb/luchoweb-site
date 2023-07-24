@@ -1,0 +1,17 @@
+.school {
+  &__logo {
+    flex-basis: 67px;
+
+    @media (max-width: 767px) {
+      flex-basis: 75px;
+    }
+  }
+
+  &__info {
+    flex-basis: 100%;
+  }
+
+  &__degree {
+    font-size: 1.1rem;
+  }
+}

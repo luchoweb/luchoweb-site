@@ -15,7 +15,7 @@ const Experience = () => {
           <div className="company__info">
             <p className="d-flex flex-wrap m-0 mb-2 company__name">
               <strong className="order-2 order-md-1">{work.company}</strong>
-              <span className="badge bg-secondary ms-md-2 mb-2 mb-md-0 order-md-2">{work.type}</span>
+              <span className="badge bg-secondary text-light ms-md-2 mb-2 mb-md-0 order-md-2">{work.type}</span>
             </p>
             <p className="m-0 text-dark">
               <strong>{work.role}</strong>
