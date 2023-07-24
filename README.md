@@ -1,2 +1,2 @@
 # Lucho Web
-Minimal portfolio built using React (Vite + TypeScript).
+Minimalist portfolio design built with React (Vite + TypeScript).
