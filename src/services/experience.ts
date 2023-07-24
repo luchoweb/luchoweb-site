@@ -26,7 +26,7 @@ export const experience = [
   {
     company: "Toolbox TVE",
     image: "tbx.png",
-    role: "Software Developer",
+    role: "Full-Stack Developer",
     type: "Contract",
     time_worked: "7 months",
     date_worked: {
