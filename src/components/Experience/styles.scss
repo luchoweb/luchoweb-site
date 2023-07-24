@@ -6,6 +6,10 @@
     border-bottom: 2px solid #f7f7f7;
   }
 
+  &__info {
+    flex-basis: 80%;
+  }
+
   &__logo {
     background-color: white;
     border: 2px solid #f7f7f7;
@@ -17,7 +21,8 @@
     width: 60px;
 
     img {
-      height: auto;
+      height: 100%;
+      object-fit: cover;
       width: 100%;
     }
   }
