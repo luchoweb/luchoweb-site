@@ -1,0 +1,76 @@
+---
+
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-text">
+        <div class="hero__content">
+          <h2 class="hero__greetings">Hello, I'm Luis Rodríguez 👋</h2>
+          <h3 class="hero__role">Web Developer and Consultant</h3>
+          <p class="hero__intro">I'm a full-stack developer based in Colombia. I've more than 12 years of experience, and I'm very passionate and dedicated to my work.</p>
+        </div>
+
+        <div class="hero__buttons">
+          lets talk - download cv
+        </div>
+
+        <div class="hero__social">
+          social links
+        </div>
+      </div>
+
+      <div class="col col-image">
+        my photo here!
+      </div>
+    </div>
+  </div>
+</section>
+
+<style lang="scss">
+  .hero {
+    align-items: center;
+    display: flex;
+    height: calc(100dvh - 60px);
+    min-height: 600px;
+    max-height: 768px;
+
+    .row {
+      align-items: center;
+    }
+
+    .col {
+      width: 50%;
+
+      &-text {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+      }
+
+      &-image {
+        text-align: center;
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    &__greetings {
+      font-size: 1.5rem;
+    }
+
+    &__role {
+      font-size: 2.5rem;
+      line-height: 1.3em;
+    }
+
+    &__intro {
+      font-size: 1.15rem;
+    }
+  }
+</style>
