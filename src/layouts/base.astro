@@ -84,6 +84,23 @@ const { title, description } = Astro.props;
   .row {
     display: flex;
   }
+
+  @keyframes bgScale {
+    0% {
+      background-size: 100%;
+      transform: rotate(0deg);
+    }
+
+    50% {
+      background-size: 70%;
+      transform: rotate(180deg);
+    }
+
+    100% {
+      background-size: 100%;
+      transform: rotate(360deg);
+    }
+  }
 </style>
 
 <script is:inline src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
