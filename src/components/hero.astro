@@ -7,25 +7,58 @@
     <div class="row">
       <div class="col col-text">
         <div class="hero__content">
-          <h2 class="hero__greetings">Hello, I'm Luis Rodríguez 👋</h2>
-          <h3 class="hero__role">Web Developer and Consultant</h3>
-          <p class="hero__intro">I'm a full-stack developer based in Colombia. I've more than 12 years of experience, and I'm very passionate and dedicated to my work.</p>
+          <h2 class="hero__greetings" data-aos="fade-down">Hello, I'm Luis Rodríguez 👋</h2>
+          <h3 class="hero__role" data-aos="fade-right">Web Developer and Consultant</h3>
+          <p class="hero__intro" data-aos="fade-right" data-aos-delay="300">I'm a full-stack developer based in Colombia. I've more than 12 years of experience, and I'm very passionate and dedicated to my work.</p>
         </div>
 
         <div class="hero__buttons">
-          lets talk - download cv
+          <a href="#calendly.link" class="hero__btn" data-aos="fade-up" data-aos-delay="400">
+            Lets talk
+            <img src="assets/icons/send.svg" alt="send" height="16" width="16" />
+          </a>
+
+          <a href="assets/luis-rodriguez-resume.pdf" class="hero__link" data-aos="fade-down" data-aos-delay="500" download="CV - Luis Rodriguez">
+            Download CV
+            <img src="assets/icons/download.svg" alt="download" height="20" width="20" />
+          </a>
         </div>
 
         <div class="hero__social">
-          social links
+          <p class="hero__social-title" data-aos="fade-right" data-aos-delay="700">Check me on:</p>
+
+          <ul class="hero__social-icons">
+            <li data-aos="fade-left" data-aos-delay="800">
+              <a href="#" target="_blank" rel="noopened">
+                <img src="assets/icons/linkedin.png" alt="LinkedIn" height="30" width="30" />
+              </a>
+            </li>
+            <li data-aos="fade-left" data-aos-delay="900">
+              <a href="#" target="_blank" rel="noopened">
+                <img src="assets/icons/github.png" alt="Github" height="30" width="30" />
+              </a>
+            </li>
+            <li data-aos="fade-left" data-aos-delay="1000">
+              <a href="#" target="_blank" rel="noopened">
+                <img src="assets/icons/whatsapp.png" alt="WhatsApp" height="30" width="30" />
+              </a>
+            </li>
+            <li data-aos="fade-left" data-aos-delay="1100">
+              <a href="#" target="_blank" rel="noopened">
+                <img src="assets/icons/youtube.png" alt="YouTube" height="30" width="30" />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div class="col col-image">
-        my photo here!
+        my photo here soon!
       </div>
     </div>
   </div>
+
+  <!-- <a href="https://www.freepik.com/icon/github_2504911#fromView=family&page=1&position=20&uuid=dd1b0d04-0856-478d-b69c-7cd645d93471">Icon by Ruslan Babkin</a> -->
 </section>
 
 <style lang="scss">
@@ -71,6 +104,74 @@
 
     &__intro {
       font-size: 1.15rem;
+    }
+
+    &__buttons {
+      align-items: center;
+      display: flex;
+      gap: 30px;
+    }
+
+    &__link,
+    &__btn {
+      align-items: center;
+      color: light-dark(var(--color-text), white);
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    &__link {
+      width: 140px;
+
+      img {
+        stroke: light-dark(var(--color-text), white);
+      }
+    }
+
+    &__btn {
+      align-items: center;
+      background-color: #00637c;
+      color: white;
+      border-radius: 1rem;
+      display: flex;
+      gap: 10px;
+      padding: 0.7rem 2rem;
+
+      &:hover {
+        background-color: #0087a9;
+      }
+
+      img {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &__social {
+      align-items: center;
+      display: flex;
+      gap: 20px;
+
+      &-title {
+        font-size: 18px;
+        font-weight: var(--fw-medium);
+      }
+
+      &-icons {
+        align-items: center;
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          border-radius: 50%;
+          overflow: hidden;
+          line-height: 0;
+        }
+      }
     }
   }
 </style>
