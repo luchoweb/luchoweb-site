@@ -52,8 +52,8 @@
         </div>
       </div>
 
-      <div class="col col-image">
-        my photo here soon!
+      <div class="col col-image" data-aos="zoom-in" data-aos-delay="700">
+        <img src="assets/me.png" alt="Lucho Web" data-aos="fade-up" data-aos-delay="900">
       </div>
     </div>
   </div>
@@ -65,12 +65,12 @@
   .hero {
     align-items: center;
     display: flex;
-    height: calc(100dvh - 60px);
-    min-height: 600px;
-    max-height: 768px;
+    height: calc(100dvh - 160px);
+    min-height: 550px;
+    overflow: hidden;
 
     .row {
-      align-items: center;
+      align-items: flex-end;
     }
 
     .col {
@@ -80,10 +80,34 @@
         display: flex;
         flex-direction: column;
         gap: 4rem;
+        padding: 50px;
       }
 
       &-image {
+        line-height: 0;
+        position: relative;
         text-align: center;
+
+        &::before {
+          background-image: url(assets/brush.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          content: "";
+          position: absolute;
+          transform: rotate(180deg);
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          z-index: -1;
+        }
+
+        img {
+          position: relative;
+          z-index: 0;
+          height: 100%;
+          width: auto;
+        }
       }
     }
 
@@ -132,7 +156,7 @@
 
     &__btn {
       align-items: center;
-      background-color: #00637c;
+      background-color: #426ae9;
       color: white;
       border-radius: 1rem;
       display: flex;
@@ -140,7 +164,7 @@
       padding: 0.7rem 2rem;
 
       &:hover {
-        background-color: #0087a9;
+        background-color: #3459d1;
       }
 
       img {

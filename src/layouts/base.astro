@@ -18,7 +18,7 @@ const { title, description } = Astro.props;
     <meta property="og:description" content={description} />
     <meta property="og:url" content="https://luchoweb.dev" />
     <meta property="og:site_name" content={title} />
-    <meta property="og:image" content="https://luchoweb.dev/images/photo.jpeg" />
+    <meta property="og:image" content="https://luchoweb.dev/_astro/assets/me.jpeg" />
     <meta property="og:type" content="profile" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -46,8 +46,8 @@ const { title, description } = Astro.props;
   }
 
   body {
-    color: light-dark(var(--color-text), white);
     background-color: light-dark(white, #222);
+    color: light-dark(var(--color-text), white);
     font-size: 16px;
     font-family: "Nunito Sans Variable", sans-serif;
     font-weight: var(--fw-normal);
