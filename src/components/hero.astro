@@ -151,7 +151,13 @@
       width: 140px;
 
       img {
-        stroke: light-dark(var(--color-text), white);
+        transition: all 0.3s linear;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
       }
     }
 
