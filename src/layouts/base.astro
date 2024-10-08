@@ -23,8 +23,10 @@ const { title, description } = Astro.props;
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <Header />
-    <slot />
+    <main>
+      <Header />
+      <slot />
+    </main>
   </body>
 </html>
 
@@ -53,6 +55,13 @@ const { title, description } = Astro.props;
     font-weight: var(--fw-normal);
     line-height: 1.5em;
     margin: 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: flex-start;
   }
 
   h1, h2, h3, h4, h5, h6, p {
