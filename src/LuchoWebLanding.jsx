@@ -9,7 +9,6 @@ export default function LuchoWebLanding() {
 
     return (
         <>
-            <HeadTags />
             <div className="min-h-screen bg-[#0f0f0f] text-white p-6 font-sans">
                 <header className="text-center py-10 relative">
                     <div className="absolute top-4 right-6 space-x-2 md:top-6 md:right-10 z-10">
@@ -57,17 +56,5 @@ function ServiceCard({ title, description }) {
             <h3 className="text-xl font-bold mb-2 text-white">{title}</h3>
             <p className="text-gray-300">{description}</p>
         </div>
-    );
-}
-
-function HeadTags() {
-    return (
-        <>
-            <title>Lucho Web | Expert Web Development</title>
-            <meta name="description" content="Desarrollo web profesional, tiendas online, sitios empresariales y asesorías. Agencia Lucho Web Colombia." />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta name="keywords" content="desarrollo web, landing pages, tiendas online, asesorías web, sitios institucionales, WooCommerce, Shopify, Colombia" />
-            <meta name="author" content="Lucho Web" />
-        </>
     );
 }
