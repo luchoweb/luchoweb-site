@@ -1,21 +1,123 @@
 {
-    "title": "<LuchoWeb />",
-    "subtitle": "Professional Web Development tailored to your needs",
-    "servicesTitle": "What I Do",
-    "service1": "Landing Pages",
-    "desc1": "Modern designs optimized for conversion.",
-    "service2": "Custom Development",
-    "desc2": "Web applications 100% tailored to your business.",
-    "service3": "Corporate Sites",
-    "desc3": "Professional digital presence for your company.",
-    "service4": "Government Sites",
-    "desc4": "Digital solutions for government and institutions.",
-    "service5": "Online Stores",
-    "desc5": "Built with WooCommerce, Shopify, and Tienda Nube.",
-    "service6": "Paid Consulting",
-    "desc6": "Personalized consulting for your web project.",
-    "ctaTitle": "Let's talk about your project!",
-    "ctaText": "Contact me directly on WhatsApp for fast and personalized attention.",
-    "ctaButton": "Message me on WhatsApp",
-    "footer": "All rights reserved."
+  "logo": "<LuchoWeb />",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "letsTalk": "Let's talk"
+  },
+  "menu": {
+    "title": "Menu",
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "hero": {
+    "badge": "{{years}} years of experience",
+    "title": "I solve problems; code is just the tool",
+    "subtitle": "For {{years}} years I've taken ideas to the internet—designing solutions, building products, and shipping them.",
+    "primaryCta": "Let's talk",
+    "secondaryCta": "See my work",
+    "imagePlaceholder": "Your studio photo here",
+    "imageAlt": "Studio portrait of Lucho (placeholder)"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Tailored digital solutions to bring ideas to life and strengthen your online presence.",
+    "items": {
+      "customDev": {
+        "title": "Custom Web Development",
+        "desc": "From-scratch applications and sites—optimized, scalable, and architected for your business goals."
+      },
+      "saas": {
+        "title": "SaaS Development",
+        "desc": "Robust, secure platforms built to scale with authentication, payments, and modern dashboards."
+      },
+      "ecommerce": {
+        "title": "Online Stores",
+        "desc": "WooCommerce or Shopify setups with seamless checkout, payment integrations, and inventory control."
+      },
+      "landing": {
+        "title": "Landing Pages",
+        "desc": "Conversion-focused pages for products, events, waitlists, and marketing campaigns."
+      },
+      "consulting": {
+        "title": "Web Consulting",
+        "desc": "Validate ideas, assess technical and financial feasibility, and receive realistic budgeting guidance."
+      },
+      "teaching": {
+        "title": "Personalized Programming Classes",
+        "desc": "Hands-on mentorship tailored to your level, using real projects and modern tools."
+      }
+    }
+  },
+  "work": {
+    "title": "Work",
+    "subtitle": "Selected projects where I solved real problems and shipped ideas to the internet.",
+    "thumbnailPlaceholder": "Project thumbnail",
+    "viewProject": "View project",
+    "items": {
+      "proj1": { "title": "Project A — OTT Streaming", "desc": "Modular frontend for an OTT platform with custom player and analytics." },
+      "proj2": { "title": "Project B — B2C E-commerce", "desc": "Shopify store tuned for conversions with payments and newsletter integrations." },
+      "proj3": { "title": "Project C — Quotation SaaS", "desc": "Multi-tenant app with auth, PDF generation, and fast quote delivery." },
+      "proj4": { "title": "Project D — Launch Landing", "desc": "High-performance landing page focused on conversions and waitlist growth." },
+      "proj5": { "title": "Project E — Admin Dashboard", "desc": "Real-time metrics, role management, and clean UX for operations." },
+      "proj6": { "title": "Project F — Corporate Site", "desc": "Custom site with CMS and technical SEO ready to scale." }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm Luis Rodríguez, known as Lucho Web. I've been a web developer for 14 years, helping companies and entrepreneurs bring ideas to life online.",
+    "experience": "I began as a PHP developer, then shifted toward the Frontend world. After 9+ years working with WordPress, I built a strong full-stack profile.",
+    "modern": "In the last 5 years, I've worked with modern stacks like React, Node, and Vue, following agile methodologies, using Git version control, and embracing clean scalable code practices.",
+    "highlightsTitle": "A few milestones along the way",
+    "highlights": {
+      "fullstack": "Over a decade of full-stack development and complex custom builds.",
+      "tech": "Experience with React, Node, Vue, PHP, and the WordPress ecosystem.",
+      "methodologies": "Skilled in agile workflows and professional version control with Git.",
+      "evolution": "Witnessed the web's evolution—from table layouts to Flex and Grid, from jQuery's rise to the reign of modern frameworks."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have an idea or a technical challenge? Let's talk and define a clear path forward.",
+    "call": {
+      "title": "Direct call",
+      "desc": "Let's speak now and review your case.",
+      "cta": "Call"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "desc": "Send a quick message to schedule a call or get a short answer.",
+      "cta": "Message",
+      "prefilled": "Hi Lucho Web, I'd like to talk about a project",
+      "subject": "Web services inquiry",
+      "body": "Hi Lucho, I'd like to discuss..."
+    },
+    "email": {
+      "title": "Email",
+      "desc": "Share your project context and I'll reply with a concise proposal.",
+      "cta": "Email",
+      "subject": "Web services inquiry",
+      "body": "Hi Lucho, I'd like to discuss..."
+    },
+    "points": {
+      "response": "Same business-day reply.",
+      "discovery": "Focused discovery call to understand your goal.",
+      "ethics": "Transparent scope, timelines, and costs."
+    },
+    "note": "Clicking a button will open your default app (phone, WhatsApp, or email)."
+  },
+  "footer": {
+    "tagline": "Beyond code, I build results.",
+    "rights": "All rights reserved."
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  }
 }

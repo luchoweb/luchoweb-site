@@ -1,21 +1,123 @@
 {
-    "title": "<LuchoWeb />",
-    "subtitle": "Desarrollo Web Profesional a tu medida",
-    "servicesTitle": "\u00bfQu\u00e9 Hacemos?",
-    "service1": "Landing Pages",
-    "desc1": "Dise\u00f1os modernos y optimizados para convertir visitantes en clientes.",
-    "service2": "Desarrollo a la Medida",
-    "desc2": "Aplicaciones web adaptadas 100% a tus necesidades empresariales.",
-    "service3": "Sitios Empresariales",
-    "desc3": "Presencia digital profesional para tu empresa, moderna y funcional.",
-    "service4": "Sitios Institucionales",
-    "desc4": "Soluciones digitales para entidades gubernamentales e instituciones.",
-    "service5": "Tiendas Online",
-    "desc5": "Implementaci\u00f3n con WooCommerce, Shopify y Tienda Nube.",
-    "service6": "Asesor\u00edas Pagas",
-    "desc6": "Consultor\u00edas personalizadas para orientarte en tu proyecto web.",
-    "ctaTitle": "\u00a1Hablemos de tu proyecto!",
-    "ctaText": "Cont\u00e1ctame directamente por WhatsApp para una atenci\u00f3n r\u00e1pida y personalizada.",
-    "ctaButton": "Escribirme al WhatsApp",
-    "footer": "Todos los derechos reservados."
+  "logo": "<LuchoWeb />",
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "work": "Trabajo",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "cta": {
+    "letsTalk": "Hablemos"
+  },
+  "menu": {
+    "title": "Menú",
+    "open": "Abrir menú",
+    "close": "Cerrar menú"
+  },
+  "hero": {
+    "badge": "{{years}} años de experiencia",
+    "title": "Resuelvo problemas; el código es mi herramienta",
+    "subtitle": "Durante {{years}} años he llevado ideas a internet: diseño soluciones, construyo productos y los pongo a producir.",
+    "primaryCta": "Hablemos",
+    "secondaryCta": "Ver trabajo",
+    "imagePlaceholder": "Tu foto de estudio aquí",
+    "imageAlt": "Retrato de estudio de Lucho (placeholder)"
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Soluciones diseñadas a medida para impulsar tu presencia digital y hacer realidad tus ideas.",
+    "items": {
+      "customDev": {
+        "title": "Desarrollo web a la medida",
+        "desc": "Aplicaciones y sitios hechos desde cero, optimizados, escalables y con la arquitectura que tu negocio necesita."
+      },
+      "saas": {
+        "title": "Construcción de SaaS",
+        "desc": "Plataformas robustas y seguras listas para escalar, con autenticación, pagos y paneles de control modernos."
+      },
+      "ecommerce": {
+        "title": "Tiendas en línea",
+        "desc": "Soluciones en WooCommerce o Shopify, con integración de pagos, inventarios y experiencia de compra fluida."
+      },
+      "landing": {
+        "title": "Landing pages",
+        "desc": "Diseños centrados en conversión: productos, eventos, listas de espera y campañas de marketing."
+      },
+      "consulting": {
+        "title": "Consultoría web",
+        "desc": "Valido ideas, evalúo viabilidad técnica y económica, y elaboro presupuestos realistas según tus objetivos."
+      },
+      "teaching": {
+        "title": "Clases personalizadas de programación",
+        "desc": "Formación práctica y guiada, adaptada a tu nivel, con proyectos reales y herramientas modernas."
+      }
+    }
+  },
+  "work": {
+    "title": "Trabajo",
+    "subtitle": "Una selección de proyectos donde resolví problemas reales y llevé ideas a internet.",
+    "thumbnailPlaceholder": "Miniatura del proyecto",
+    "viewProject": "Ver proyecto",
+    "items": {
+      "proj1": { "title": "Proyecto A — Streaming OTT", "desc": "Frontend modular para plataforma OTT con reproductor custom y analítica." },
+      "proj2": { "title": "Proyecto B — E-commerce B2C", "desc": "Tienda optimizada en Shopify con integraciones de pagos y newsletter." },
+      "proj3": { "title": "Proyecto C — SaaS de cotizaciones", "desc": "App multi-tenant con autenticación, PDF y envío de cotizaciones en minutos." },
+      "proj4": { "title": "Proyecto D — Landing de lanzamiento", "desc": "Landing de alto rendimiento enfocada en conversión y lista de espera." },
+      "proj5": { "title": "Proyecto E — Dashboard Admin", "desc": "Panel con métricas en tiempo real y control de usuarios/roles." },
+      "proj6": { "title": "Proyecto F — Sitio corporativo", "desc": "Sitio a medida con CMS y SEO técnico listo para escalar." }
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "intro": "Soy Luis Rodríguez, conocido como Lucho Web. Llevo 14 años en el desarrollo web, trabajando para diversas compañías y ayudando a llevar ideas a internet.",
+    "experience": "Mis inicios fueron como desarrollador PHP, y con el tiempo evolucioné hacia el Frontend. Durante más de 9 años he trabajado con WordPress, forjando un perfil sólido como desarrollador full-stack.",
+    "modern": "En los últimos 5 años he trabajado con tecnologías modernas como React, Node y Vue, aplicando metodologías ágiles, control de versiones con Git y buenas prácticas que garantizan calidad y escalabilidad.",
+    "highlightsTitle": "Algunos hitos de mi recorrido",
+    "highlights": {
+      "fullstack": "Más de una década desarrollando proyectos full-stack y personalizaciones complejas.",
+      "tech": "Experiencia con React, Node, Vue, PHP, y ecosistemas WordPress.",
+      "methodologies": "Adopción de metodologías ágiles y control de versiones profesional con Git.",
+      "evolution": "He vivido la evolución de la web: de las tablas a Flex y Grid, del auge de jQuery al dominio de los frameworks modernos."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes una idea o un reto técnico? Conversemos y encuentra una ruta clara para avanzar.",
+    "call": {
+      "title": "Llamada directa",
+      "desc": "Hablemos ahora mismo y revisemos tu caso.",
+      "cta": "Llamar"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "desc": "Mensaje rápido para agendar una reunión o resolver una duda puntual.",
+      "cta": "Escribir a",
+      "prefilled": "Hola Lucho Web, quiero hablar sobre un proyecto",
+      "subject": "Consulta de servicios web",
+      "body": "Hola Lucho, me gustaría conversar sobre..."
+    },
+    "email": {
+      "title": "Correo",
+      "desc": "Comparte el contexto de tu proyecto y te respondo con una propuesta clara.",
+      "cta": "Enviar correo a",
+      "subject": "Consulta de servicios web",
+      "body": "Hola Lucho, me gustaría conversar sobre..."
+    },
+    "points": {
+      "response": "Respuesta en el mismo día hábil.",
+      "discovery": "Primera llamada de descubrimiento enfocada en tu objetivo.",
+      "ethics": "Transparencia en alcance, tiempos y costos."
+    },
+    "note": "Al hacer clic se abrirá tu app predeterminada (teléfono, WhatsApp o correo)."
+  },
+   "footer": {
+    "tagline": "Más que escribir código, construyo resultados.",
+    "rights": "Todos los derechos reservados."
+  },
+  "social": {
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  }
 }
