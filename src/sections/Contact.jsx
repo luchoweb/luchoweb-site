@@ -41,7 +41,7 @@ const Icon = {
 export default function Contact() {
   const { t } = useTranslation();
 
-  const WHATSAPP_URL = `https://wa.me/573001234567?text=${encodeURIComponent(
+  const WHATSAPP_URL = `https://wa.me/573246802829?text=${encodeURIComponent(
     t('contact.whatsapp.prefilled')
   )}`;
   const MAILTO_URL = `mailto:${EMAIL}?subject=${encodeURIComponent(
