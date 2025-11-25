@@ -46,18 +46,10 @@ export default function Hero({ years = 14 }) {
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900 shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-neutral-900 to-neutral-800" />
               <div className="relative z-10 flex h-full w-full items-center justify-center">
-                <div className="text-center">
-                  <div className="mx-auto mb-3 h-16 w-16 rounded-full border border-neutral-800 bg-neutral-950" />
-                  <p className="text-sm text-neutral-400">
-                    {t("hero.imagePlaceholder")}
-                  </p>
-                </div>
+                <img src="/me-site.jpeg" alt="me" className="h-full" />
               </div>
               <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-neutral-800" />
             </div>
-            <p className="mt-3 text-center text-xs text-neutral-500">
-              {t("hero.imageAlt")}
-            </p>
           </div>
         </div>
       </div>
