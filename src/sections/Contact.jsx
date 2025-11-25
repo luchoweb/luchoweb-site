@@ -1,8 +1,8 @@
 import { Mail, PhoneCall } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const PHONE_E164 = "57246802829";
-const PHONE_DISPLAY = "+57 324 680 2829";
+const PHONE_E164 = "573246802829";
+const PHONE_DISPLAY = "+57 324-680-2829";
 const EMAIL = "luchoweb.dev@gmail.com";
 
 const Icon = {
