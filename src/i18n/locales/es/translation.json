@@ -18,7 +18,7 @@
   "hero": {
     "badge": "{{years}} años de experiencia",
     "title": "Resuelvo problemas; el código es mi herramienta",
-    "subtitle": "Durante {{years}} años he llevado ideas a internet: diseño soluciones, construyo productos y los pongo a producir.",
+    "subtitle": "Durante {{years}} años he llevado ideas a internet: diseño soluciones, construyo productos y los pongo a producir. Y también uso IA todos los días.",
     "primaryCta": "Hablemos",
     "secondaryCta": "Ver trabajo",
     "imagePlaceholder": "Tu foto de estudio aquí",
@@ -73,6 +73,7 @@
     "intro": "Soy Luis Rodríguez, conocido como Lucho Web. Llevo 14 años en el desarrollo web, trabajando para diversas compañías y ayudando a llevar ideas a internet.",
     "experience": "Mis inicios fueron como desarrollador PHP, y con el tiempo evolucioné hacia el Frontend. Durante más de 9 años he trabajado con WordPress, forjando un perfil sólido como desarrollador full-stack.",
     "modern": "En los últimos 5 años he trabajado con tecnologías modernas como React, Node y Vue, aplicando metodologías ágiles, control de versiones con Git y buenas prácticas que garantizan calidad y escalabilidad.",
+    "ai": "Y estos últimos 2 años han sido los mejores, he incorporado la IA en mi día a día y he logrado mejorar mi código, pero también mis tiempos de desarrollo, despliegue y entrega. La IA me ha potenciado 3x mi rendimiento.",
     "highlightsTitle": "Algunos hitos de mi recorrido",
     "highlights": {
       "fullstack": "Más de una década desarrollando proyectos full-stack y personalizaciones complejas.",
@@ -91,7 +92,7 @@
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "desc": "Mensaje rápido para agendar una reunión o resolver una duda puntual.",
+      "desc": "Mensaje rápido para agendar una reunión o resolver dudas.",
       "cta": "Escribir a",
       "prefilled": "Hola Lucho Web, quiero hablar sobre un proyecto",
       "subject": "Consulta de servicios web",
@@ -99,8 +100,8 @@
     },
     "email": {
       "title": "Correo",
-      "desc": "Comparte el contexto de tu proyecto y te respondo con una propuesta clara.",
-      "cta": "Enviar correo a",
+      "desc": "Comparte el contexto de tu proyecto para ayudarte.",
+      "cta": "Enviar correo ahora",
       "subject": "Consulta de servicios web",
       "body": "Hola Lucho, me gustaría conversar sobre..."
     },

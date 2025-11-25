@@ -1,3 +1,4 @@
+import { Mail, PhoneCall } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const PHONE_E164 = "+57246802829";
@@ -6,15 +7,7 @@ const EMAIL = "luchoweb.dev@gmail.com";
 
 const Icon = {
   phone: (props) => (
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
-      <path
-        d="M3.5 5c0-1 .8-1.8 1.8-1.8h2.2c.8 0 1.5.5 1.7 1.3l.7 2.4c.1.5 0 1-.4 1.4l-1 1a.8.8 0 000 1.1l4.4 4.4c.3.3.7.3 1.1 0l1-1c.4-.4.9-.5 1.4-.4l2.4.7c.8.2 1.3.9 1.3 1.7v2.2c0 1-.8 1.8-1.8 1.8h-.7c-7 0-12.7-5.7-12.7-12.7V6.8c0-1 .8-1.8 1.8-1.8z"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <PhoneCall {...props} />
   ),
   whatsapp: (props) => (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
@@ -30,24 +23,7 @@ const Icon = {
     </svg>
   ),
   mail: (props) => (
-    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
-      <rect
-        x="3"
-        y="5"
-        width="18"
-        height="14"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <path
-        d="M4 7l8 6 8-6"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <Mail {...props} />
   ),
   check: (props) => (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
@@ -92,12 +68,12 @@ export default function Contact() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {/* Call */}
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl">
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl flex justify-between flex-col">
             <div className="flex items-center gap-3">
               <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-emerald-400">
                 {Icon.phone({ className: "h-5 w-5" })}
               </span>
-              <div>
+              <div className="flex-1">
                 <h3 className="text-base font-medium text-white">
                   {t("contact.call.title")}
                 </h3>
@@ -111,19 +87,19 @@ export default function Contact() {
               className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-700 bg-emerald-700/20 px-4 py-2.5 text-sm font-medium text-emerald-200 hover:bg-emerald-700/30"
             >
               {Icon.phone({ className: "h-4 w-4" })}
-              <span>
+              <span className="flex-1">
                 {t("contact.call.cta")} {PHONE_DISPLAY}
               </span>
             </a>
           </div>
 
           {/* WhatsApp */}
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl">
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl flex justify-between flex-col">
             <div className="flex items-center gap-3">
               <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-emerald-400">
                 {Icon.whatsapp({ className: "h-5 w-5" })}
               </span>
-              <div>
+              <div className="flex-1">
                 <h3 className="text-base font-medium text-white">
                   {t("contact.whatsapp.title")}
                 </h3>
@@ -139,19 +115,19 @@ export default function Contact() {
               className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-700 bg-emerald-700/20 px-4 py-2.5 text-sm font-medium text-emerald-200 hover:bg-emerald-700/30"
             >
               {Icon.whatsapp({ className: "h-4 w-4" })}
-              <span>
+              <span className="flex-1">
                 {t("contact.whatsapp.cta")} {PHONE_DISPLAY}
               </span>
             </a>
           </div>
 
           {/* Email */}
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl">
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl flex justify-between flex-col">
             <div className="flex items-center gap-3">
               <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-sky-400">
                 {Icon.mail({ className: "h-5 w-5" })}
               </span>
-              <div>
+              <div className="flex-1">
                 <h3 className="text-base font-medium text-white">
                   {t("contact.email.title")}
                 </h3>
@@ -162,11 +138,11 @@ export default function Contact() {
             </div>
             <a
               href={MAILTO_URL}
-              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-sky-700 bg-sky-700/20 px-4 py-2.5 text-sm font-medium text-sky-200 hover:bg-sky-700/30"
+              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-sky-700 bg-sky-700/20 px-4 py-2.5 text-sm font-medium text-sky-200 hover:bg-sky-700/30 basis-full"
             >
               {Icon.mail({ className: "h-4 w-4" })}
-              <span>
-                {t("contact.email.cta")} {EMAIL}
+              <span className="flex-1">
+                {t("contact.email.cta")}
               </span>
             </a>
           </div>
@@ -186,7 +162,7 @@ export default function Contact() {
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-emerald-400">
                 {Icon.check({ className: "h-4 w-4" })}
               </span>
-              <p className="text-sm text-neutral-300">{text}</p>
+              <p className="text-sm text-neutral-300 flex-1">{text}</p>
             </div>
           ))}
         </div>

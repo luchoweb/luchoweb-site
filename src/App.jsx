@@ -12,7 +12,7 @@ export default function App() {
       <Header />
       <Hero />
       <Services />
-      <Work />
+      {/*<Work />*/}
       <About />
       <Contact />
       <Footer />

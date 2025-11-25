@@ -1,25 +1,9 @@
+import { Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Social = {
   Linkedin: (props) => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" {...props}>
-      <rect
-        x="3"
-        y="3"
-        width="18"
-        height="18"
-        rx="2"
-        ry="2"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <path
-        d="M7.5 10.5v6M7.5 7.5v.01M12 16.5v-6m0 0c0-1.7 3-1.8 3 0v6"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-    </svg>
+    <Linkedin {...props} />
   ),
   Instagram: (props) => (
     <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" {...props}>
@@ -73,7 +57,7 @@ export default function Footer() {
           {/* Socials */}
           <div className="flex items-center gap-3">
             <a
-              href="https://www.linkedin.com/in/tu-usuario" // TODO: reemplaza por tu URL real
+              href="https://www.linkedin.com/in/luchowebdev"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"
@@ -83,7 +67,7 @@ export default function Footer() {
               {Social.Linkedin({ className: "h-5 w-5" })}
             </a>
             <a
-              href="https://www.instagram.com/tu_usuario" // TODO: reemplaza por tu @ real
+              href="https://www.instagram.com/luchoweb.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"
@@ -93,7 +77,7 @@ export default function Footer() {
               {Social.Instagram({ className: "h-5 w-5" })}
             </a>
             <a
-              href="https://www.tiktok.com/@tu_usuario" // TODO: reemplaza por tu @ real
+              href="https://www.tiktok.com/@luchoweb.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"

@@ -32,12 +32,12 @@ export default function Hero({ years = 14 }) {
               >
                 {t("hero.primaryCta")}
               </a>
-              <a
+              {/*<a
                 href="#work"
                 className="inline-flex items-center justify-center rounded-xl border border-neutral-800 bg-neutral-950 px-5 py-2.5 text-sm font-medium text-neutral-200 transition hover:bg-neutral-900"
               >
                 {t("hero.secondaryCta")}
-              </a>
+              </a>*/}
             </div>
           </div>
 

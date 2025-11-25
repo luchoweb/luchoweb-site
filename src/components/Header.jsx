@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const NAV = [
   { key: "home", href: "#home" },
   { key: "services", href: "#services" },
-  { key: "work", href: "#work" },
+  //{ key: "work", href: "#work" },
   { key: "about", href: "#about" },
   { key: "contact", href: "#contact" },
 ];

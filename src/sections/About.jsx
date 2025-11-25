@@ -1,75 +1,18 @@
+import { ClockFading, FastForward, Layers, Telescope } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Icons = {
   fullstack: (props) => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <path
-        d="M3 7h18M3 12h18M3 17h18"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-      <rect x="4" y="5" width="6" height="4" rx="1" fill="currentColor" />
-    </svg>
+    <Telescope {...props} />
   ),
   tech: (props) => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <path
-        d="M8 8l-3 4 3 4M16 8l3 4-3 4"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M11 6h2M11 18h2"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-    </svg>
+    <Layers {...props} />
   ),
   methodologies: (props) => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <circle
-        cx="12"
-        cy="12"
-        r="9"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <path
-        d="M12 7v5l3 3"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <FastForward {...props} />
   ),
   evolution: (props) => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
-      <path
-        d="M4 16c3-6 7-8 16-8"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M18 6l2 2-2 2"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <ClockFading {...props} />
   ),
 };
 
@@ -100,6 +43,7 @@ export default function About({ years = 14 }) {
               <p>{t("about.intro")}</p>
               <p>{t("about.experience")}</p>
               <p>{t("about.modern")}</p>
+              <p>{t("about.ai")}</p>
             </div>
           </div>
 
@@ -118,7 +62,7 @@ export default function About({ years = 14 }) {
                   <span className="mt-1 inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-neutral-300">
                     {Icons.fullstack({ className: "h-5 w-5" })}
                   </span>
-                  <p className="text-sm text-neutral-300">
+                  <p className="text-sm text-neutral-300 flex-1">
                     {t("about.highlights.fullstack")}
                   </p>
                 </div>
@@ -126,7 +70,7 @@ export default function About({ years = 14 }) {
                   <span className="mt-1 inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-neutral-300">
                     {Icons.tech({ className: "h-5 w-5" })}
                   </span>
-                  <p className="text-sm text-neutral-300">
+                  <p className="text-sm text-neutral-300 flex-1">
                     {t("about.highlights.tech")}
                   </p>
                 </div>
@@ -134,7 +78,7 @@ export default function About({ years = 14 }) {
                   <span className="mt-1 inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-neutral-300">
                     {Icons.methodologies({ className: "h-5 w-5" })}
                   </span>
-                  <p className="text-sm text-neutral-300">
+                  <p className="text-sm text-neutral-300 flex-1">
                     {t("about.highlights.methodologies")}
                   </p>
                 </div>
@@ -142,7 +86,7 @@ export default function About({ years = 14 }) {
                   <span className="mt-1 inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-neutral-300">
                     {Icons.evolution({ className: "h-5 w-5" })}
                   </span>
-                  <p className="text-sm text-neutral-300">
+                  <p className="text-sm text-neutral-300 flex-1">
                     {t("about.highlights.evolution")}
                   </p>
                 </div>

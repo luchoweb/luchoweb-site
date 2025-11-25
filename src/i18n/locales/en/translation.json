@@ -18,7 +18,7 @@
   "hero": {
     "badge": "{{years}} years of experience",
     "title": "I solve problems; code is just the tool",
-    "subtitle": "For {{years}} years I've taken ideas to the internet—designing solutions, building products, and shipping them.",
+    "subtitle": "For {{years}} years I've taken ideas to the internet—designing solutions, building products, and shipping them. And I also use AI every day.",
     "primaryCta": "Let's talk",
     "secondaryCta": "See my work",
     "imagePlaceholder": "Your studio photo here",
@@ -73,6 +73,7 @@
     "intro": "I'm Luis Rodríguez, known as Lucho Web. I've been a web developer for 14 years, helping companies and entrepreneurs bring ideas to life online.",
     "experience": "I began as a PHP developer, then shifted toward the Frontend world. After 9+ years working with WordPress, I built a strong full-stack profile.",
     "modern": "In the last 5 years, I've worked with modern stacks like React, Node, and Vue, following agile methodologies, using Git version control, and embracing clean scalable code practices.",
+    "ai": "And these last two years have been the best. I have incorporated AI into my daily routine and have managed to improve my code, but also my development, deployment, and delivery times. AI has boosted my performance threefold.",
     "highlightsTitle": "A few milestones along the way",
     "highlights": {
       "fullstack": "Over a decade of full-stack development and complex custom builds.",
@@ -91,7 +92,7 @@
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "desc": "Send a quick message to schedule a call or get a short answer.",
+      "desc": "Send a quick message to schedule a call.",
       "cta": "Message",
       "prefilled": "Hi Lucho Web, I'd like to talk about a project",
       "subject": "Web services inquiry",
@@ -99,8 +100,8 @@
     },
     "email": {
       "title": "Email",
-      "desc": "Share your project context and I'll reply with a concise proposal.",
-      "cta": "Email",
+      "desc": "Share your project context to get a concise proposal.",
+      "cta": "Send a email now",
       "subject": "Web services inquiry",
       "body": "Hi Lucho, I'd like to discuss..."
     },
