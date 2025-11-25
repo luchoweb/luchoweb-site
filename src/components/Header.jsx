@@ -126,7 +126,7 @@ export default function Header() {
         {/* panel */}
         <aside
           className={[
-            "absolute right-0 top-0 h-full w-80 max-w-[85%]",
+            "absolute right-0 top-0 h-dvh w-80 max-w-[85%]",
             "bg-neutral-900 border-l border-neutral-800 shadow-xl",
             "transform transition-transform",
             open ? "translate-x-0" : "translate-x-full",
