@@ -1,7 +1,7 @@
 import { Mail, PhoneCall } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const PHONE_E164 = "+57246802829";
+const PHONE_E164 = "57246802829";
 const PHONE_DISPLAY = "+57 324 680 2829";
 const EMAIL = "luchoweb.dev@gmail.com";
 
@@ -41,7 +41,7 @@ const Icon = {
 export default function Contact() {
   const { t } = useTranslation();
 
-  const WHATSAPP_URL = `https://wa.me/573246802829?text=${encodeURIComponent(
+  const WHATSAPP_URL = `https://wa.me/${PHONE_E164}?text=${encodeURIComponent(
     t('contact.whatsapp.prefilled')
   )}`;
   const MAILTO_URL = `mailto:${EMAIL}?subject=${encodeURIComponent(
@@ -83,7 +83,7 @@ export default function Contact() {
               </div>
             </div>
             <a
-              href={`tel:${PHONE_E164}`}
+              href={`tel:+${PHONE_E164}`}
               className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-700 bg-emerald-700/20 px-4 py-2.5 text-sm font-medium text-emerald-200 hover:bg-emerald-700/30"
             >
               {Icon.phone({ className: "h-4 w-4" })}
