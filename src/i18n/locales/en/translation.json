@@ -17,8 +17,8 @@
   },
   "hero": {
     "badge": "{{years}} years of experience",
-    "title": "I solve problems; code is just the tool",
-    "subtitle": "For {{years}} years I've taken ideas to the internet—designing solutions, building products, and shipping them. And I also use AI every day.",
+    "title": "I solve problems; code and AI are just the tools",
+    "subtitle": "For {{years}} years I've taken ideas to the internet, designing solutions, building products, and shipping them. And I also use AI every day.",
     "primaryCta": "Let's talk",
     "secondaryCta": "See my work",
     "imagePlaceholder": "Your studio photo here",
