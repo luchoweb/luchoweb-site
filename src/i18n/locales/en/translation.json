@@ -106,7 +106,7 @@
       "body": "Hi Lucho, I'd like to discuss..."
     },
     "points": {
-      "response": "Same business-day reply.",
+      "response": "Get a fast reply according to project size.",
       "discovery": "Focused discovery call to understand your goal.",
       "ethics": "Transparent scope, timelines, and costs."
     },
@@ -118,7 +118,7 @@
   },
   "social": {
     "linkedin": "LinkedIn",
-    "instagram": "Instagram",
+    "github": "GitHub",
     "tiktok": "TikTok"
   }
 }

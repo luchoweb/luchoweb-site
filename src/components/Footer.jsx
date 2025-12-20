@@ -1,25 +1,12 @@
-import { Linkedin } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Social = {
   Linkedin: (props) => (
     <Linkedin {...props} />
   ),
-  Instagram: (props) => (
-    <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" {...props}>
-      <rect
-        x="3"
-        y="3"
-        width="18"
-        height="18"
-        rx="5"
-        ry="5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <circle cx="12" cy="12" r="3.5" stroke="currentColor" strokeWidth="1.5" />
-      <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" />
-    </svg>
+  GitHub: (props) => (
+    <Github {...props} />
   ),
   TikTok: (props) => (
     <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" {...props}>
@@ -67,14 +54,14 @@ export default function Footer() {
               {Social.Linkedin({ className: "h-5 w-5" })}
             </a>
             <a
-              href="https://www.instagram.com/luchoweb.dev"
+              href="https://github.com/luchoweb"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"
-              aria-label={t("social.instagram")}
-              title={t("social.instagram")}
+              aria-label={t("social.github")}
+              title={t("social.github")}
             >
-              {Social.Instagram({ className: "h-5 w-5" })}
+              {Social.GitHub({ className: "h-5 w-5" })}
             </a>
             <a
               href="https://www.tiktok.com/@luchoweb.dev"

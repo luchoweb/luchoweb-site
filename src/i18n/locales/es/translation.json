@@ -84,7 +84,7 @@
   },
   "contact": {
     "title": "Contacto",
-    "subtitle": "¿Tienes una idea o un reto técnico? Conversemos y encuentra una ruta clara para avanzar.",
+    "subtitle": "¿Tienes una idea o un reto técnico? Conversemos y encuentre una ruta clara para avanzar.",
     "call": {
       "title": "Llamada directa",
       "desc": "Hablemos ahora mismo y revisemos tu caso.",
@@ -106,8 +106,8 @@
       "body": "Hola Lucho, me gustaría conversar sobre..."
     },
     "points": {
-      "response": "Respuesta en el mismo día hábil.",
-      "discovery": "Primera llamada de descubrimiento enfocada en tu objetivo.",
+      "response": "Respuesta rápida segun el tamaño del proyecto.",
+      "discovery": "Primera llamada de descubrimiento enfocada en objetivos.",
       "ethics": "Transparencia en alcance, tiempos y costos."
     },
     "note": "Al hacer clic se abrirá tu app predeterminada (teléfono, WhatsApp o correo)."
@@ -118,7 +118,7 @@
   },
   "social": {
     "linkedin": "LinkedIn",
-    "instagram": "Instagram",
+    "github": "GitHub",
     "tiktok": "TikTok"
   }
 }
