@@ -101,7 +101,7 @@
     "email": {
       "title": "Email",
       "desc": "Share your project context to get a concise proposal.",
-      "cta": "Send a email now",
+      "cta": "Send an email now",
       "subject": "Web services inquiry",
       "body": "Hi Lucho, I'd like to discuss..."
     },
