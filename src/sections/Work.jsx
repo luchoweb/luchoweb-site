@@ -13,13 +13,16 @@ export default function Work() {
   const { t } = useTranslation();
 
   return (
-    <section id="work" className="relative bg-neutral-950 py-20 sm:py-24">
+    <section id="work" className="relative bg-transparent py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 text-center">
+          <span className="inline-flex rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-cyan-100">
+            {t("work.eyebrow")}
+          </span>
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">
             {t("work.title")}
           </h2>
-          <p className="mt-3 text-neutral-400 max-w-2xl mx-auto">
+          <p className="mt-3 text-slate-300 max-w-2xl mx-auto">
             {t("work.subtitle")}
           </p>
         </div>
@@ -28,20 +31,20 @@ export default function Work() {
           {items.map(({ key }) => (
             <article
               key={key}
-              className="group overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900 transition hover:border-neutral-700"
+              className="group overflow-hidden rounded-2xl border border-white/10 bg-slate-900/55 backdrop-blur-sm transition hover:-translate-y-1 hover:border-cyan-300/40"
             >
               {/* Thumbnail placeholder — replace with <img src=... alt=... /> */}
-              <div className="relative aspect-[16/10] w-full overflow-hidden bg-neutral-950">
-                <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-neutral-900 to-neutral-800" />
+              <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950/60">
+                <div className="absolute inset-0 bg-gradient-to-br from-slate-900/60 via-slate-950/60 to-slate-900/60" />
                 <div className="relative z-10 flex h-full items-center justify-center">
                   <div className="text-center">
-                    <div className="mx-auto mb-3 h-14 w-14 rounded-lg border border-neutral-800 bg-neutral-950" />
-                    <p className="text-xs text-neutral-500">
+                    <div className="mx-auto mb-3 h-14 w-14 rounded-lg border border-white/15 bg-white/5" />
+                    <p className="text-xs text-slate-500">
                       {t("work.thumbnailPlaceholder")}
                     </p>
                   </div>
                 </div>
-                <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-neutral-800/80" />
+                <div className="pointer-events-none absolute inset-0 ring-1 ring-inset ring-white/10" />
               </div>
 
               {/* Copy */}
@@ -49,7 +52,7 @@ export default function Work() {
                 <h3 className="text-base font-medium text-white">
                   {t(`work.items.${key}.title`)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-neutral-400">
+                <p className="mt-2 text-sm leading-relaxed text-slate-300">
                   {t(`work.items.${key}.desc`)}
                 </p>
 

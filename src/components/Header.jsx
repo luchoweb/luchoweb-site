@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const NAV = [
   { key: "home", href: "#home" },
   { key: "services", href: "#services" },
-  //{ key: "work", href: "#work" },
+  { key: "work", href: "#work" },
   { key: "about", href: "#about" },
   { key: "contact", href: "#contact" },
 ];
@@ -34,23 +34,25 @@ export default function Header() {
   }, [open]);
 
   const changeLang = (lng) => {
-      i18n.changeLanguage(lng);
+    i18n.changeLanguage(lng);
   };
 
   return (
     <header
       className={[
         "fixed inset-x-0 top-0 z-50",
-        "transition-colors",
-        "border-b border-neutral-800",
-        scrolled ? "bg-neutral-900/80 backdrop-blur" : "bg-transparent",
+        "transition-all duration-300",
+        "border-b border-white/10",
+        scrolled
+          ? "bg-slate-950/80 backdrop-blur-xl shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
+          : "bg-transparent",
       ].join(" ")}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
-            <span className="rounded-md bg-neutral-900 px-2 py-1 text-sm tracking-tight text-neutral-200 ring-1 ring-inset ring-neutral-800 font-mono">
+            <span className="rounded-md bg-white/5 px-2 py-1 text-sm tracking-tight text-slate-100 ring-1 ring-inset ring-white/20 font-mono">
               {t("logo")}
             </span>
           </a>
@@ -61,7 +63,7 @@ export default function Header() {
               <a
                 key={item.href}
                 href={item.href}
-                className="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-neutral-800/60 rounded-md transition"
+                className="px-3 py-2 text-sm text-slate-300 hover:text-white hover:bg-white/10 rounded-md transition"
               >
                 {t(`nav.${item.key}`)}
               </a>
@@ -72,19 +74,19 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-2">
             <button
               onClick={() => changeLang("en")}
-              className="inline-flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900 px-2.5 py-1.5 text-xs text-neutral-300 hover:bg-neutral-800"
+              className="inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/5 px-2.5 py-1.5 text-xs text-slate-200 hover:bg-white/10"
             >
               EN
             </button>
             <button
               onClick={() => changeLang("es")}
-              className="inline-flex items-center justify-center rounded-lg border border-neutral-800 bg-neutral-900 px-2.5 py-1.5 text-xs text-neutral-300 hover:bg-neutral-800"
+              className="inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/5 px-2.5 py-1.5 text-xs text-slate-200 hover:bg-white/10"
             >
               ES
             </button>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 rounded-xl border border-neutral-700 bg-neutral-900 px-4 py-2 text-sm font-medium text-white shadow-sm transition hover:bg-neutral-800 hover:border-neutral-600"
+              className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-100 shadow-sm transition hover:bg-cyan-400/20 hover:border-cyan-300/40"
             >
               <span>{t("cta.letsTalk")}</span>
             </a>
@@ -94,7 +96,7 @@ export default function Header() {
           <button
             aria-label={t("menu.open")}
             onClick={() => setOpen(true)}
-            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-neutral-800 text-neutral-200 hover:bg-neutral-800/60"
+            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/15 text-slate-200 hover:bg-white/10"
           >
             <span className="sr-only">{t("menu.open")}</span>
             <div className="space-y-1.5">
@@ -117,7 +119,7 @@ export default function Header() {
         <div
           onClick={() => setOpen(false)}
           className={[
-            "absolute inset-0 bg-black/60",
+            "absolute inset-0 bg-slate-950/75 backdrop-blur-sm",
             open ? "opacity-100" : "opacity-0",
             "transition-opacity",
           ].join(" ")}
@@ -127,18 +129,18 @@ export default function Header() {
         <aside
           className={[
             "absolute right-0 top-0 h-dvh w-80 max-w-[85%]",
-            "bg-neutral-900 border-l border-neutral-800 shadow-xl",
+            "bg-slate-950 border-l border-white/10 shadow-xl",
             "transform transition-transform",
             open ? "translate-x-0" : "translate-x-full",
           ].join(" ")}
           aria-label={t("menu.title")}
         >
-          <div className="flex items-center justify-between px-4 py-3 border-b border-neutral-800">
-            <span className="text-sm text-neutral-300">{t("menu.title")}</span>
+          <div className="flex items-center justify-between px-4 py-3 border-b border-white/10">
+            <span className="text-sm text-slate-300">{t("menu.title")}</span>
             <button
               aria-label={t("menu.close")}
               onClick={() => setOpen(false)}
-              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-neutral-800 text-neutral-300 hover:bg-neutral-800/60"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-white/15 text-slate-300 hover:bg-white/10"
             >
               <span className="sr-only">{t("menu.close")}</span>
               <svg
@@ -162,7 +164,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="block rounded-lg px-3 py-3 text-base text-neutral-200 hover:bg-neutral-800/70"
+                className="block rounded-lg px-3 py-3 text-base text-slate-200 hover:bg-white/10"
               >
                 {t(`nav.${item.key}`)}
               </a>
@@ -170,7 +172,7 @@ export default function Header() {
             <a
               href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 block rounded-lg border border-neutral-700 bg-neutral-900 px-3 py-3 text-base font-medium text-white hover:bg-neutral-800"
+              className="mt-2 block rounded-lg border border-cyan-400/30 bg-cyan-400/10 px-3 py-3 text-base font-medium text-cyan-50 hover:bg-cyan-400/20"
             >
               {t("cta.letsTalk")}
             </a>
@@ -179,13 +181,13 @@ export default function Header() {
             <div className="mt-4 flex items-center gap-2 px-3">
               <button
                 onClick={() => changeLang("en")}
-                className="rounded-md border border-neutral-800 px-3 py-1 text-sm text-neutral-300 hover:bg-neutral-800"
+                className="rounded-md border border-white/15 px-3 py-1 text-sm text-slate-300 hover:bg-white/10"
               >
                 EN
               </button>
               <button
                 onClick={() => changeLang("es")}
-                className="rounded-md border border-neutral-800 px-3 py-1 text-sm text-neutral-300 hover:bg-neutral-800"
+                className="rounded-md border border-white/15 px-3 py-1 text-sm text-slate-300 hover:bg-white/10"
               >
                 ES
               </button>
