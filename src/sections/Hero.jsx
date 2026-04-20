@@ -2,6 +2,11 @@ import { useTranslation } from "react-i18next";
 
 export default function Hero({ years = 14 }) {
   const { t } = useTranslation();
+  const proof = [
+    t("hero.proof.delivery"),
+    t("hero.proof.focus"),
+    t("hero.proof.roi"),
+  ];
 
   return (
     <section id="home" className="relative overflow-hidden bg-transparent">
@@ -36,12 +41,23 @@ export default function Hero({ years = 14 }) {
               >
                 {t("hero.primaryCta")}
               </a>
-              {/*<a
+              <a
                 href="#work"
-                className="inline-flex items-center justify-center rounded-xl border border-neutral-800 bg-neutral-950 px-5 py-2.5 text-sm font-medium text-neutral-200 transition hover:bg-neutral-900"
+                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-white/10"
               >
                 {t("hero.secondaryCta")}
-              </a>*/}
+              </a>
+            </div>
+
+            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+              {proof.map((item) => (
+                <p
+                  key={item}
+                  className="rounded-xl border border-white/10 bg-slate-900/50 px-3 py-2 text-xs text-slate-300"
+                >
+                  {item}
+                </p>
+              ))}
             </div>
           </div>
 

@@ -17,16 +17,21 @@
   },
   "hero": {
     "badge": "{{years}} años de experiencia",
-    "title": "Resuelvo problemas; el código y la IA son mis herramientas",
-    "subtitle": "Durante {{years}} años he llevado ideas a internet: diseño soluciones, construyo productos y los pongo a producir. Y también uso IA todos los días.",
-    "primaryCta": "Hablemos",
-    "secondaryCta": "Ver trabajo",
+    "title": "Transformo ideas en activos digitales que venden",
+    "subtitle": "Creo landing pages, sitios y productos web orientados a resultados: más leads, más confianza de marca y mejores conversiones en menos tiempo.",
+    "primaryCta": "Quiero vender más",
+    "secondaryCta": "Ver casos y enfoque",
     "imagePlaceholder": "Tu foto de estudio aquí",
-    "imageAlt": "Retrato de estudio de Lucho (placeholder)"
+    "imageAlt": "Retrato de estudio de Lucho (placeholder)",
+    "proof": {
+      "delivery": "Entrega inicial en 7-14 días",
+      "focus": "Enfoque en conversión y SEO técnico",
+      "roi": "Decisiones guiadas por métricas"
+    }
   },
   "services": {
-    "title": "Servicios",
-    "subtitle": "Soluciones diseñadas a medida para impulsar tu presencia digital y hacer realidad tus ideas.",
+    "title": "Servicios para crecer online",
+    "subtitle": "Diseño y desarrollo web con visión de negocio: claridad estratégica, experiencia de usuario y ejecución técnica impecable.",
     "items": {
       "customDev": {
         "title": "Desarrollo web a la medida",
@@ -52,29 +57,49 @@
         "title": "Clases personalizadas de programación",
         "desc": "Formación práctica y guiada, adaptada a tu nivel, con proyectos reales y herramientas modernas."
       }
-    }
+    },
+    "eyebrow": "Oferta principal"
   },
   "work": {
-    "title": "Trabajo",
-    "subtitle": "Una selección de proyectos donde resolví problemas reales y llevé ideas a internet.",
+    "title": "Resultados y proyectos",
+    "subtitle": "Ejemplos de soluciones construidas para vender, escalar operaciones y mejorar la presencia digital de cada marca.",
     "thumbnailPlaceholder": "Miniatura del proyecto",
     "viewProject": "Ver proyecto",
     "items": {
-      "proj1": { "title": "Proyecto A — Streaming OTT", "desc": "Frontend modular para plataforma OTT con reproductor custom y analítica." },
-      "proj2": { "title": "Proyecto B — E-commerce B2C", "desc": "Tienda optimizada en Shopify con integraciones de pagos y newsletter." },
-      "proj3": { "title": "Proyecto C — SaaS de cotizaciones", "desc": "App multi-tenant con autenticación, PDF y envío de cotizaciones en minutos." },
-      "proj4": { "title": "Proyecto D — Landing de lanzamiento", "desc": "Landing de alto rendimiento enfocada en conversión y lista de espera." },
-      "proj5": { "title": "Proyecto E — Dashboard Admin", "desc": "Panel con métricas en tiempo real y control de usuarios/roles." },
-      "proj6": { "title": "Proyecto F — Sitio corporativo", "desc": "Sitio a medida con CMS y SEO técnico listo para escalar." }
-    }
+      "proj1": {
+        "title": "Proyecto A — Streaming OTT",
+        "desc": "Frontend modular para plataforma OTT con reproductor custom y analítica."
+      },
+      "proj2": {
+        "title": "Proyecto B — E-commerce B2C",
+        "desc": "Tienda optimizada en Shopify con integraciones de pagos y newsletter."
+      },
+      "proj3": {
+        "title": "Proyecto C — SaaS de cotizaciones",
+        "desc": "App multi-tenant con autenticación, PDF y envío de cotizaciones en minutos."
+      },
+      "proj4": {
+        "title": "Proyecto D — Landing de lanzamiento",
+        "desc": "Landing de alto rendimiento enfocada en conversión y lista de espera."
+      },
+      "proj5": {
+        "title": "Proyecto E — Dashboard Admin",
+        "desc": "Panel con métricas en tiempo real y control de usuarios/roles."
+      },
+      "proj6": {
+        "title": "Proyecto F — Sitio corporativo",
+        "desc": "Sitio a medida con CMS y SEO técnico listo para escalar."
+      }
+    },
+    "eyebrow": "Prueba social"
   },
   "about": {
-    "title": "Sobre mí",
-    "intro": "Soy Luis Rodríguez, conocido como Lucho Web. Llevo 14 años en el desarrollo web, trabajando para diversas compañías y ayudando a llevar ideas a internet.",
+    "title": "Tu aliado digital",
+    "intro": "Soy Luis Rodríguez (Lucho Web). Llevo 14 años ayudando a empresas y emprendedores a lanzar y optimizar productos digitales con enfoque comercial.",
     "experience": "Mis inicios fueron como desarrollador PHP, y con el tiempo evolucioné hacia el Frontend. Durante más de 9 años he trabajado con WordPress, forjando un perfil sólido como desarrollador full-stack.",
     "modern": "En los últimos 5 años he trabajado con tecnologías modernas como React, Node y Vue, aplicando metodologías ágiles, control de versiones con Git y buenas prácticas que garantizan calidad y escalabilidad.",
     "ai": "Y estos últimos 2 años han sido los mejores, he incorporado la IA en mi día a día y he logrado mejorar mi código, pero también mis tiempos de desarrollo, despliegue y entrega. La IA me ha potenciado 3x mi rendimiento.",
-    "highlightsTitle": "Algunos hitos de mi recorrido",
+    "highlightsTitle": "Lo que aporto a tu proyecto",
     "highlights": {
       "fullstack": "Más de una década desarrollando proyectos full-stack y personalizaciones complejas.",
       "tech": "Experiencia con React, Node, Vue, PHP, y ecosistemas WordPress.",
@@ -83,8 +108,8 @@
     }
   },
   "contact": {
-    "title": "Contacto",
-    "subtitle": "¿Tienes una idea o un reto técnico? Conversemos y encuentre una ruta clara para avanzar.",
+    "title": "¿Listo para tu siguiente versión digital?",
+    "subtitle": "Cuéntame tu objetivo comercial y te propongo una ruta clara de ejecución, tiempos y alcance desde la primera conversación.",
     "call": {
       "title": "Llamada directa",
       "desc": "Hablemos ahora mismo y revisemos tu caso.",
@@ -106,14 +131,14 @@
       "body": "Hola Lucho, me gustaría conversar sobre..."
     },
     "points": {
-      "response": "Respuesta rápida segun el tamaño del proyecto.",
-      "discovery": "Primera llamada de descubrimiento enfocada en objetivos.",
-      "ethics": "Transparencia en alcance, tiempos y costos."
+      "response": "Respuesta inicial en menos de 24 horas hábiles.",
+      "discovery": "Llamada de descubrimiento con foco en objetivos de negocio.",
+      "ethics": "Alcance, tiempos y costos claros desde el inicio."
     },
     "note": "Al hacer clic se abrirá tu app predeterminada (teléfono, WhatsApp o correo)."
   },
-   "footer": {
-    "tagline": "Más que escribir código, construyo resultados.",
+  "footer": {
+    "tagline": "Diseño, tecnología y estrategia para convertir visitas en clientes.",
     "rights": "Todos los derechos reservados."
   },
   "social": {
