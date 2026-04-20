@@ -41,12 +41,6 @@ export default function Hero({ years = 14 }) {
               >
                 {t("hero.primaryCta")}
               </a>
-              <a
-                href="#work"
-                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-white/10"
-              >
-                {t("hero.secondaryCta")}
-              </a>
             </div>
 
             <div className="mt-8 grid items-stretch gap-3 sm:grid-cols-3">
