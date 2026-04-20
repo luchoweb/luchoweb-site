@@ -9,4 +9,18 @@ html {
 body {
   font-family: "Inter Variable", sans-serif;
   font-weight: 300;
+  background:
+    radial-gradient(1400px 700px at 10% -10%, rgba(56, 189, 248, 0.12), transparent 55%),
+    radial-gradient(1100px 600px at 90% 0%, rgba(139, 92, 246, 0.14), transparent 55%),
+    #020617;
+  color: #e5e7eb;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background-color: rgba(56, 189, 248, 0.35);
+  color: #f8fafc;
 }
