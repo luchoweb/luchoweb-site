@@ -26,17 +26,17 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-neutral-950 border-t border-neutral-800">
+    <footer className="relative bg-transparent border-t border-white/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 py-10 md:flex-row">
           {/* Brand + tagline */}
           <div className="text-center md:text-left">
             <div className="inline-flex items-center gap-2">
-              <span className="rounded-md bg-neutral-900 px-2 py-1 text-sm tracking-tight text-neutral-200 ring-1 ring-inset ring-neutral-800 font-mono">
+              <span className="rounded-md bg-white/5 px-2 py-1 text-sm tracking-tight text-slate-200 ring-1 ring-inset ring-white/15 font-mono">
                 {t("logo")}
               </span>
             </div>
-            <p className="mt-3 text-sm text-neutral-400 max-w-md">
+            <p className="mt-3 text-sm text-slate-400 max-w-md">
               {t("footer.tagline")}
             </p>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/luchowebdev"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
               aria-label={t("social.linkedin")}
               title={t("social.linkedin")}
             >
@@ -57,7 +57,7 @@ export default function Footer() {
               href="https://github.com/luchoweb"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
               aria-label={t("social.github")}
               title={t("social.github")}
             >
@@ -67,7 +67,7 @@ export default function Footer() {
               href="https://www.tiktok.com/@luchoweb.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-900 ring-1 ring-inset ring-neutral-800 text-neutral-300 hover:bg-neutral-800"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
               aria-label={t("social.tiktok")}
               title={t("social.tiktok")}
             >
@@ -76,8 +76,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-neutral-900 py-6">
-          <p className="text-center text-xs text-neutral-500">
+        <div className="border-t border-white/5 py-6">
+          <p className="text-center text-xs text-slate-500">
             &copy; {year} Lucho Web · {t("footer.rights")}
           </p>
         </div>

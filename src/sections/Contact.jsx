@@ -49,11 +49,11 @@ export default function Contact() {
   )}&body=${encodeURIComponent(t('contact.email.body'))}`;
 
   return (
-    <section id="contact" className="relative bg-neutral-950 py-20 sm:py-24">
+    <section id="contact" className="relative bg-transparent py-20 sm:py-24">
       {/* subtle background accent */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 -top-10 mx-auto h-56 w-56 rounded-full bg-emerald-600/10 blur-3xl"
+        className="pointer-events-none absolute inset-x-0 -top-10 mx-auto h-56 w-56 rounded-full bg-cyan-500/10 blur-3xl"
       />
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
@@ -61,30 +61,30 @@ export default function Contact() {
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">
             {t("contact.title")}
           </h2>
-          <p className="mt-3 text-neutral-400 max-w-2xl mx-auto">
+          <p className="mt-3 text-slate-300 max-w-2xl mx-auto">
             {t("contact.subtitle")}
           </p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {/* Call */}
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl flex justify-between flex-col">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-2xl backdrop-blur-sm flex justify-between flex-col">
             <div className="flex items-center gap-3">
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-emerald-400">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/10 text-emerald-300">
                 {Icon.phone({ className: "h-5 w-5" })}
               </span>
               <div className="flex-1">
                 <h3 className="text-base font-medium text-white">
                   {t("contact.call.title")}
                 </h3>
-                <p className="text-sm text-neutral-400">
+                <p className="text-sm text-slate-400">
                   {t("contact.call.desc")}
                 </p>
               </div>
             </div>
             <a
               href={`tel:+${PHONE_E164}`}
-              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-700 bg-emerald-700/20 px-4 py-2.5 text-sm font-medium text-emerald-200 hover:bg-emerald-700/30"
+              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-400/30 bg-emerald-400/10 px-4 py-2.5 text-sm font-medium text-emerald-100 hover:bg-emerald-400/20"
             >
               {Icon.phone({ className: "h-4 w-4" })}
               <span className="flex-1">
@@ -94,16 +94,16 @@ export default function Contact() {
           </div>
 
           {/* WhatsApp */}
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl flex justify-between flex-col">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-2xl backdrop-blur-sm flex justify-between flex-col">
             <div className="flex items-center gap-3">
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-emerald-400">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/10 text-emerald-300">
                 {Icon.whatsapp({ className: "h-5 w-5" })}
               </span>
               <div className="flex-1">
                 <h3 className="text-base font-medium text-white">
                   {t("contact.whatsapp.title")}
                 </h3>
-                <p className="text-sm text-neutral-400">
+                <p className="text-sm text-slate-400">
                   {t("contact.whatsapp.desc")}
                 </p>
               </div>
@@ -112,7 +112,7 @@ export default function Contact() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-700 bg-emerald-700/20 px-4 py-2.5 text-sm font-medium text-emerald-200 hover:bg-emerald-700/30"
+              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-emerald-400/30 bg-emerald-400/10 px-4 py-2.5 text-sm font-medium text-emerald-100 hover:bg-emerald-400/20"
             >
               {Icon.whatsapp({ className: "h-4 w-4" })}
               <span className="flex-1">
@@ -122,23 +122,23 @@ export default function Contact() {
           </div>
 
           {/* Email */}
-          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6 shadow-2xl flex justify-between flex-col">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-2xl backdrop-blur-sm flex justify-between flex-col">
             <div className="flex items-center gap-3">
-              <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-sky-400">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/10 text-sky-300">
                 {Icon.mail({ className: "h-5 w-5" })}
               </span>
               <div className="flex-1">
                 <h3 className="text-base font-medium text-white">
                   {t("contact.email.title")}
                 </h3>
-                <p className="text-sm text-neutral-400">
+                <p className="text-sm text-slate-400">
                   {t("contact.email.desc")}
                 </p>
               </div>
             </div>
             <a
               href={MAILTO_URL}
-              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-sky-700 bg-sky-700/20 px-4 py-2.5 text-sm font-medium text-sky-200 hover:bg-sky-700/30 basis-full"
+              className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl border border-sky-400/30 bg-sky-400/10 px-4 py-2.5 text-sm font-medium text-sky-100 hover:bg-sky-400/20 basis-full"
             >
               {Icon.mail({ className: "h-4 w-4" })}
               <span className="flex-1">
@@ -157,17 +157,17 @@ export default function Contact() {
           ].map((text, i) => (
             <div
               key={i}
-              className="flex items-center gap-3 rounded-xl border border-neutral-800 bg-neutral-900 p-4"
+              className="flex items-center gap-3 rounded-xl border border-white/10 bg-slate-900/60 p-4"
             >
-              <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-neutral-950 ring-1 ring-inset ring-neutral-800 text-emerald-400">
+              <span className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-white/5 ring-1 ring-inset ring-white/10 text-emerald-300">
                 {Icon.check({ className: "h-4 w-4" })}
               </span>
-              <p className="text-sm text-neutral-300 flex-1">{text}</p>
+              <p className="text-sm text-slate-300 flex-1">{text}</p>
             </div>
           ))}
         </div>
 
-        <p className="mt-8 text-center text-xs text-neutral-500">
+        <p className="mt-8 text-center text-xs text-slate-500">
           {t("contact.note")}
         </p>
       </div>
