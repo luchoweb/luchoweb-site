@@ -17,24 +17,29 @@
   },
   "hero": {
     "badge": "{{years}} years of experience",
-    "title": "I solve problems; code and AI are just the tools",
-    "subtitle": "For {{years}} years I've taken ideas to the internet, designing solutions, building products, and shipping them. And I also use AI every day.",
-    "primaryCta": "Let's talk",
-    "secondaryCta": "See my work",
+    "title": "I turn ideas into digital assets that sell",
+    "subtitle": "I build landing pages, websites, and web products focused on outcomes. Over the last 2 years, I integrated AI into every stage: strategy, UX, copy, development, testing, and SEO optimization.",
+    "primaryCta": "I want more sales",
+    "secondaryCta": "See approach & cases",
     "imagePlaceholder": "Your studio photo here",
-    "imageAlt": "Studio portrait of Lucho (placeholder)"
+    "imageAlt": "Studio portrait of Lucho (placeholder)",
+    "proof": {
+      "delivery": "First delivery in 7-14 days",
+      "focus": "Conversion-focused UX + technical SEO",
+      "roi": "Decisions backed by metrics"
+    }
   },
   "services": {
-    "title": "Services",
-    "subtitle": "Tailored digital solutions to bring ideas to life and strengthen your online presence.",
+    "title": "Services built for growth",
+    "subtitle": "Business-oriented web design and development, enhanced with AI at every step to speed up delivery and improve conversion.",
     "items": {
       "customDev": {
         "title": "Custom Web Development",
-        "desc": "From-scratch applications and sites—optimized, scalable, and architected for your business goals."
+        "desc": "From-scratch applications and sites—optimized and scalable—with modern architecture and AI-assisted iteration for faster execution."
       },
       "saas": {
         "title": "SaaS Development",
-        "desc": "Robust, secure platforms built to scale with authentication, payments, and modern dashboards."
+        "desc": "Robust, secure platforms built to scale, with authentication, payments, and AI-assisted workflows that automate operations."
       },
       "ecommerce": {
         "title": "Online Stores",
@@ -42,7 +47,7 @@
       },
       "landing": {
         "title": "Landing Pages",
-        "desc": "Conversion-focused pages for products, events, waitlists, and marketing campaigns."
+        "desc": "Conversion-focused landing pages using AI for ideation, copywriting, A/B testing, and continuous optimization from data."
       },
       "consulting": {
         "title": "Web Consulting",
@@ -52,29 +57,49 @@
         "title": "Personalized Programming Classes",
         "desc": "Hands-on mentorship tailored to your level, using real projects and modern tools."
       }
-    }
+    },
+    "eyebrow": "Core offering"
   },
   "work": {
-    "title": "Work",
-    "subtitle": "Selected projects where I solved real problems and shipped ideas to the internet.",
+    "title": "Results and selected work",
+    "subtitle": "Examples of solutions built to increase sales, scale operations, and strengthen each brand’s online presence.",
     "thumbnailPlaceholder": "Project thumbnail",
     "viewProject": "View project",
     "items": {
-      "proj1": { "title": "Project A — OTT Streaming", "desc": "Modular frontend for an OTT platform with custom player and analytics." },
-      "proj2": { "title": "Project B — B2C E-commerce", "desc": "Shopify store tuned for conversions with payments and newsletter integrations." },
-      "proj3": { "title": "Project C — Quotation SaaS", "desc": "Multi-tenant app with auth, PDF generation, and fast quote delivery." },
-      "proj4": { "title": "Project D — Launch Landing", "desc": "High-performance landing page focused on conversions and waitlist growth." },
-      "proj5": { "title": "Project E — Admin Dashboard", "desc": "Real-time metrics, role management, and clean UX for operations." },
-      "proj6": { "title": "Project F — Corporate Site", "desc": "Custom site with CMS and technical SEO ready to scale." }
-    }
+      "proj1": {
+        "title": "Project A — OTT Streaming",
+        "desc": "Modular frontend for an OTT platform with custom player and analytics."
+      },
+      "proj2": {
+        "title": "Project B — B2C E-commerce",
+        "desc": "Shopify store tuned for conversions with payments and newsletter integrations."
+      },
+      "proj3": {
+        "title": "Project C — Quotation SaaS",
+        "desc": "Multi-tenant app with auth, PDF generation, and fast quote delivery."
+      },
+      "proj4": {
+        "title": "Project D — Launch Landing",
+        "desc": "High-performance landing page focused on conversions and waitlist growth."
+      },
+      "proj5": {
+        "title": "Project E — Admin Dashboard",
+        "desc": "Real-time metrics, role management, and clean UX for operations."
+      },
+      "proj6": {
+        "title": "Project F — Corporate Site",
+        "desc": "Custom site with CMS and technical SEO ready to scale."
+      }
+    },
+    "eyebrow": "Social proof"
   },
   "about": {
-    "title": "About Me",
-    "intro": "I'm Luis Rodríguez, known as Lucho Web. I've been a web developer for 14 years, helping companies and entrepreneurs bring ideas to life online.",
+    "title": "Your digital growth partner",
+    "intro": "I’m Luis Rodríguez (Lucho Web). For 14 years, I’ve helped companies and founders launch and optimize digital products with a commercial mindset.",
     "experience": "I began as a PHP developer, then shifted toward the Frontend world. After 9+ years working with WordPress, I built a strong full-stack profile.",
     "modern": "In the last 5 years, I've worked with modern stacks like React, Node, and Vue, following agile methodologies, using Git version control, and embracing clean scalable code practices.",
-    "ai": "And these last two years have been the best. I have incorporated AI into my daily routine and have managed to improve my code, but also my development, deployment, and delivery times. AI has boosted my performance threefold.",
-    "highlightsTitle": "A few milestones along the way",
+    "ai": "In the last 2 years, I integrated AI into my entire workflow: research, UX/UI design, development, QA, and deployment. That helps me ship faster, with better quality, and a stronger focus on business outcomes.",
+    "highlightsTitle": "What I bring to your project",
     "highlights": {
       "fullstack": "Over a decade of full-stack development and complex custom builds.",
       "tech": "Experience with React, Node, Vue, PHP, and the WordPress ecosystem.",
@@ -83,8 +108,8 @@
     }
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "Have an idea or a technical challenge? Let's talk and define a clear path forward.",
+    "title": "Ready for your next digital version?",
+    "subtitle": "Share your business goal and I’ll propose a clear execution roadmap, timeline, and scope from the first conversation.",
     "call": {
       "title": "Direct call",
       "desc": "Let's speak now and review your case.",
@@ -106,14 +131,14 @@
       "body": "Hi Lucho, I'd like to discuss..."
     },
     "points": {
-      "response": "Get a fast reply according to project size.",
-      "discovery": "Focused discovery call to understand your goal.",
-      "ethics": "Transparent scope, timelines, and costs."
+      "response": "Initial response in less than 24 business hours.",
+      "discovery": "Discovery call focused on business outcomes.",
+      "ethics": "Clear scope, timeline, and pricing from day one."
     },
     "note": "Clicking a button will open your default app (phone, WhatsApp, or email)."
   },
   "footer": {
-    "tagline": "Beyond code, I build results.",
+    "tagline": "Design, technology, and strategy to turn visitors into customers.",
     "rights": "All rights reserved."
   },
   "social": {
