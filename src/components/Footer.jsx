@@ -76,7 +76,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 py-6">
+        <div className="py-4">
           <p className="text-center text-xs text-slate-500">
             &copy; {year} Lucho Web · {t("footer.rights")}
           </p>
