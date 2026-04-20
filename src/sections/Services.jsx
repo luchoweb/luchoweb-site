@@ -25,7 +25,7 @@ export default function Services() {
     <section id="services" className="relative bg-transparent py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <span className="inline-flex rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-cyan-100">
+          <span className="mb-4 inline-flex rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-cyan-100">
             {t("services.eyebrow")}
           </span>
           <h2 className="text-3xl font-semibold text-white sm:text-4xl">

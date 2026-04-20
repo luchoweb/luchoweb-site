@@ -18,7 +18,7 @@
   "hero": {
     "badge": "{{years}} years of experience",
     "title": "I turn ideas into digital assets that sell",
-    "subtitle": "I build landing pages, websites, and web products focused on outcomes: more leads, stronger brand trust, and better conversions in less time.",
+    "subtitle": "I build landing pages, websites, and web products focused on outcomes. Over the last 2 years, I integrated AI into every stage: strategy, UX, copy, development, testing, and SEO optimization.",
     "primaryCta": "I want more sales",
     "secondaryCta": "See approach & cases",
     "imagePlaceholder": "Your studio photo here",
@@ -31,15 +31,15 @@
   },
   "services": {
     "title": "Services built for growth",
-    "subtitle": "Business-oriented web design and development: strategic clarity, strong UX, and high-quality technical execution.",
+    "subtitle": "Business-oriented web design and development, enhanced with AI at every step to speed up delivery and improve conversion.",
     "items": {
       "customDev": {
         "title": "Custom Web Development",
-        "desc": "From-scratch applications and sites—optimized, scalable, and architected for your business goals."
+        "desc": "From-scratch applications and sites—optimized and scalable—with modern architecture and AI-assisted iteration for faster execution."
       },
       "saas": {
         "title": "SaaS Development",
-        "desc": "Robust, secure platforms built to scale with authentication, payments, and modern dashboards."
+        "desc": "Robust, secure platforms built to scale, with authentication, payments, and AI-assisted workflows that automate operations."
       },
       "ecommerce": {
         "title": "Online Stores",
@@ -47,7 +47,7 @@
       },
       "landing": {
         "title": "Landing Pages",
-        "desc": "Conversion-focused pages for products, events, waitlists, and marketing campaigns."
+        "desc": "Conversion-focused landing pages using AI for ideation, copywriting, A/B testing, and continuous optimization from data."
       },
       "consulting": {
         "title": "Web Consulting",
@@ -98,7 +98,7 @@
     "intro": "I’m Luis Rodríguez (Lucho Web). For 14 years, I’ve helped companies and founders launch and optimize digital products with a commercial mindset.",
     "experience": "I began as a PHP developer, then shifted toward the Frontend world. After 9+ years working with WordPress, I built a strong full-stack profile.",
     "modern": "In the last 5 years, I've worked with modern stacks like React, Node, and Vue, following agile methodologies, using Git version control, and embracing clean scalable code practices.",
-    "ai": "And these last two years have been the best. I have incorporated AI into my daily routine and have managed to improve my code, but also my development, deployment, and delivery times. AI has boosted my performance threefold.",
+    "ai": "In the last 2 years, I integrated AI into my entire workflow: research, UX/UI design, development, QA, and deployment. That helps me ship faster, with better quality, and a stronger focus on business outcomes.",
     "highlightsTitle": "What I bring to your project",
     "highlights": {
       "fullstack": "Over a decade of full-stack development and complex custom builds.",

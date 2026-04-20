@@ -49,11 +49,11 @@ export default function Hero({ years = 14 }) {
               </a>
             </div>
 
-            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+            <div className="mt-8 grid items-stretch gap-3 sm:grid-cols-3">
               {proof.map((item) => (
                 <p
                   key={item}
-                  className="rounded-xl border border-white/10 bg-slate-900/50 px-3 py-2 text-xs text-slate-300"
+                  className="flex h-full items-center rounded-xl border border-white/10 bg-slate-900/50 px-3 py-3 text-center text-xs leading-relaxed text-slate-300"
                 >
                   {item}
                 </p>

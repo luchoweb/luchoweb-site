@@ -18,7 +18,7 @@
   "hero": {
     "badge": "{{years}} años de experiencia",
     "title": "Transformo ideas en activos digitales que venden",
-    "subtitle": "Creo landing pages, sitios y productos web orientados a resultados: más leads, más confianza de marca y mejores conversiones en menos tiempo.",
+    "subtitle": "Creo landing pages, sitios y productos web orientados a resultados. En los últimos 2 años integré IA en todo el proceso: estrategia, UX, copy, desarrollo, testing y optimización SEO.",
     "primaryCta": "Quiero vender más",
     "secondaryCta": "Ver casos y enfoque",
     "imagePlaceholder": "Tu foto de estudio aquí",
@@ -31,15 +31,15 @@
   },
   "services": {
     "title": "Servicios para crecer online",
-    "subtitle": "Diseño y desarrollo web con visión de negocio: claridad estratégica, experiencia de usuario y ejecución técnica impecable.",
+    "subtitle": "Diseño y desarrollo web con visión de negocio, potenciado con IA en cada etapa para acelerar entregas y mejorar conversión.",
     "items": {
       "customDev": {
         "title": "Desarrollo web a la medida",
-        "desc": "Aplicaciones y sitios hechos desde cero, optimizados, escalables y con la arquitectura que tu negocio necesita."
+        "desc": "Aplicaciones y sitios hechos desde cero, optimizados y escalables, con arquitectura moderna y asistentes de IA para iterar más rápido."
       },
       "saas": {
         "title": "Construcción de SaaS",
-        "desc": "Plataformas robustas y seguras listas para escalar, con autenticación, pagos y paneles de control modernos."
+        "desc": "Plataformas robustas y seguras listas para escalar, con autenticación, pagos y flujos asistidos por IA para automatizar operaciones."
       },
       "ecommerce": {
         "title": "Tiendas en línea",
@@ -47,7 +47,7 @@
       },
       "landing": {
         "title": "Landing pages",
-        "desc": "Diseños centrados en conversión: productos, eventos, listas de espera y campañas de marketing."
+        "desc": "Landings centradas en conversión con IA para ideación, copy, tests A/B y mejora continua basada en datos."
       },
       "consulting": {
         "title": "Consultoría web",
@@ -98,7 +98,7 @@
     "intro": "Soy Luis Rodríguez (Lucho Web). Llevo 14 años ayudando a empresas y emprendedores a lanzar y optimizar productos digitales con enfoque comercial.",
     "experience": "Mis inicios fueron como desarrollador PHP, y con el tiempo evolucioné hacia el Frontend. Durante más de 9 años he trabajado con WordPress, forjando un perfil sólido como desarrollador full-stack.",
     "modern": "En los últimos 5 años he trabajado con tecnologías modernas como React, Node y Vue, aplicando metodologías ágiles, control de versiones con Git y buenas prácticas que garantizan calidad y escalabilidad.",
-    "ai": "Y estos últimos 2 años han sido los mejores, he incorporado la IA en mi día a día y he logrado mejorar mi código, pero también mis tiempos de desarrollo, despliegue y entrega. La IA me ha potenciado 3x mi rendimiento.",
+    "ai": "En los últimos 2 años integré IA en todo mi flujo de trabajo: investigación, diseño UX/UI, desarrollo, QA y despliegue. Esto me permite entregar más rápido, con mejor calidad y foco total en resultados de negocio.",
     "highlightsTitle": "Lo que aporto a tu proyecto",
     "highlights": {
       "fullstack": "Más de una década desarrollando proyectos full-stack y personalizaciones complejas.",
