@@ -41,26 +41,48 @@ export default function Hero({ years = 14 }) {
               >
                 {t("hero.primaryCta")}
               </a>
+              <a
+                href="#work"
+                className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-white/10"
+              >
+                {t("hero.secondaryCta")}
+              </a>
             </div>
 
-            <div className="mt-8 grid items-stretch gap-3 sm:grid-cols-3">
-              {proof.map((item) => (
-                <p
-                  key={item}
-                  className="flex h-full items-center rounded-xl border border-white/10 bg-slate-900/50 px-3 py-3 text-center text-xs leading-relaxed text-slate-300"
-                >
-                  {item}
-                </p>
-              ))}
+            <div className="mt-8 border-t border-white/10 pt-5">
+              <p className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">
+                {t("hero.proofLabel")}
+              </p>
+              <ul className="grid items-stretch gap-3 sm:grid-cols-3">
+                {proof.map((item) => (
+                  <li
+                    key={item}
+                    className="flex h-full items-start gap-2 rounded-xl border border-white/10 bg-slate-900/35 px-3 py-3 text-xs leading-relaxed text-slate-300"
+                  >
+                    <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-cyan-300/90" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
           {/* Placeholder image */}
-          <div className="relative mx-auto w-full max-w-md">
+          <div className="relative mx-auto w-full max-w-[22rem] xl:max-w-[24rem]">
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/15 bg-slate-900/70 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur">
               <div className="absolute inset-0 bg-gradient-to-br from-slate-900/50 via-slate-950/50 to-slate-900/50" />
               <div className="relative z-10 flex h-full w-full items-center justify-center">
-                <img src="/me-site.jpeg" alt="me" className="h-full w-full object-cover" />
+                <img
+                  src="/me-site.jpeg"
+                  alt="me"
+                  width="841"
+                  height="1050"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority="high"
+                  sizes="(min-width: 1280px) 24rem, 22rem"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset ring-white/10" />
             </div>
