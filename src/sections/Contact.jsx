@@ -53,12 +53,12 @@ export default function Contact() {
       {/* subtle background accent */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 -top-10 mx-auto h-56 w-56 rounded-full bg-cyan-500/10 blur-3xl"
+        className="pointer-events-none absolute inset-x-0 -top-10 mx-auto h-56 w-56 rounded-full bg-cyan-500/5 blur-3xl"
       />
 
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-semibold text-white sm:text-4xl">
+          <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
             {t("contact.title")}
           </h2>
           <p className="mt-3 text-slate-300 max-w-2xl mx-auto">

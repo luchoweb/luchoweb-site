@@ -13,25 +13,21 @@ export default function Hero({ years = 14 }) {
       {/* Decorative glow */}
       <div
         aria-hidden
-        className="pointer-events-none absolute -top-20 right-[-20%] h-[30rem] w-[65%] rounded-full bg-cyan-500/15 blur-3xl"
-      />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -left-24 bottom-0 h-80 w-80 rounded-full bg-fuchsia-500/10 blur-3xl"
+        className="pointer-events-none absolute -top-20 right-[-20%] h-[30rem] w-[65%] rounded-full bg-cyan-500/10 blur-3xl"
       />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-10 py-20 lg:grid-cols-2 lg:py-28">
           {/* Copy */}
           <div>
-            <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs text-slate-200 backdrop-blur">
+            <div className="mb-5 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-slate-400">
               <span>{t("hero.badge", { years })}</span>
             </div>
-            <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl">
+            <h1 className="text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-5xl">
               {t("hero.title")}
             </h1>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
-              {t("hero.subtitle", { years })}
+              {t("hero.subtitle")}
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -51,7 +47,7 @@ export default function Hero({ years = 14 }) {
                 {proof.map((item) => (
                   <li
                     key={item}
-                    className="flex h-full items-start gap-2 rounded-xl border border-white/10 bg-slate-900/35 px-3 py-3 text-xs leading-relaxed text-slate-300"
+                    className="flex h-full items-start gap-2 rounded-xl border border-white/10 bg-slate-900/30 px-3 py-3 text-xs leading-relaxed text-slate-300"
                   >
                     <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-cyan-300/90" />
                     <span>{item}</span>
@@ -68,7 +64,7 @@ export default function Hero({ years = 14 }) {
               <div className="relative z-10 flex h-full w-full items-center justify-center">
                 <img
                   src="/me-site.jpeg"
-                  alt="me"
+                  alt={t("hero.imageAlt")}
                   width="841"
                   height="1050"
                   loading="eager"

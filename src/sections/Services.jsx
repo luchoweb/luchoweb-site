@@ -2,20 +2,20 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import {
   BriefcaseBusiness,
-  Code,
-  MonitorCloud,
+  Compass,
+  Layers,
   PanelsTopLeft,
-  Presentation,
-  Store,
+  Sparkles,
+  Workflow,
 } from "lucide-react";
 
 const services = [
-  { key: "customDev", icon: <Code /> },
-  { key: "saas", icon: <MonitorCloud /> },
-  { key: "ecommerce", icon: <Store /> },
-  { key: "landing", icon: <PanelsTopLeft /> },
-  { key: "consulting", icon: <BriefcaseBusiness /> },
-  { key: "teaching", icon: <Presentation /> },
+  { key: "strategy", icon: <Compass /> },
+  { key: "product", icon: <PanelsTopLeft /> },
+  { key: "architecture", icon: <Layers /> },
+  { key: "poc", icon: <Sparkles /> },
+  { key: "leadership", icon: <BriefcaseBusiness /> },
+  { key: "automation", icon: <Workflow /> },
 ];
 
 export default function Services() {
@@ -24,14 +24,14 @@ export default function Services() {
   return (
     <section id="services" className="relative bg-transparent py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
-          <span className="mb-4 inline-flex rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-cyan-100">
+        <div className="mb-14 max-w-3xl">
+          <span className="mb-4 inline-flex text-xs uppercase tracking-[0.18em] text-slate-400">
             {t("services.eyebrow")}
           </span>
-          <h2 className="text-3xl font-semibold text-white sm:text-4xl">
+          <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
             {t("services.title")}
           </h2>
-          <p className="mt-3 text-slate-300 max-w-2xl mx-auto">
+          <p className="mt-3 text-slate-300">
             {t("services.subtitle")}
           </p>
         </div>
@@ -40,9 +40,9 @@ export default function Services() {
           {services.map(({ key, icon }) => (
             <div
               key={key}
-              className="rounded-2xl border border-white/10 bg-slate-900/55 p-6 text-center transition backdrop-blur-sm hover:-translate-y-1 hover:border-cyan-300/40 hover:bg-slate-900/75"
+              className="rounded-2xl border border-white/10 bg-slate-900/40 p-6 transition hover:-translate-y-1 hover:border-cyan-300/40 hover:bg-slate-900/75"
             >
-              <div className="mb-4 flex items-center justify-center">
+              <div className="mb-4 flex items-center">
                 <span className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white/5 ring-1 ring-inset ring-white/15 text-cyan-200">
                   {icon}
                 </span>
