@@ -21,4 +21,11 @@ i18n
         },
     });
 
+const syncDocumentLang = (lng) => {
+    document.documentElement.lang = (lng || 'es').split('-')[0];
+};
+
+i18n.on('languageChanged', syncDocumentLang);
+syncDocumentLang(i18n.language);
+
 export default i18n;
