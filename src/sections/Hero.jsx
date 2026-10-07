@@ -64,7 +64,7 @@ export default function Hero({ years = 14 }) {
               <div className="relative z-10 flex h-full w-full items-center justify-center">
                 <img
                   src="/me-site.jpeg"
-                  alt="Lucho, technology strategist and technical leader"
+                  alt={t("hero.imageAlt")}
                   width="841"
                   height="1050"
                   loading="eager"
