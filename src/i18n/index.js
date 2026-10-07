@@ -15,14 +15,20 @@ i18n
     .use(initReactI18next)
     .init({
         resources,
+        supportedLngs: ['en', 'es'],
         fallbackLng: 'es',
+        load: 'languageOnly',
+        detection: {
+            order: ['navigator'],
+            caches: [],
+        },
         interpolation: {
             escapeValue: false,
         },
     });
 
 const syncDocumentLang = (lng) => {
-    document.documentElement.lang = (lng || 'es').split('-')[0];
+    document.documentElement.lang = (lng || 'es').toLowerCase().startsWith('en') ? 'en-US' : 'es-CO';
 };
 
 i18n.on('languageChanged', syncDocumentLang);
