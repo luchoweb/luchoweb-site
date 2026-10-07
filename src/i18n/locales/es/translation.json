@@ -2,9 +2,9 @@
   "logo": "<LuchoWeb />",
   "nav": {
     "home": "Inicio",
-    "services": "Servicios",
+    "services": "Capacidades",
     "work": "Trabajo",
-    "about": "Acerca de",
+    "about": "Enfoque",
     "contact": "Contacto"
   },
   "cta": {
@@ -16,50 +16,50 @@
     "close": "Cerrar menú"
   },
   "hero": {
-    "badge": "{{years}} años de experiencia",
-    "title": "Transformo ideas en activos digitales que venden",
-    "subtitle": "Creo landing pages, sitios y productos web orientados a resultados. En los últimos 2 años integré IA en todo el proceso: estrategia, UX, copy, desarrollo, testing y optimización SEO.",
-    "primaryCta": "Quiero vender más",
+    "badge": "{{years}} años en tecnología",
+    "title": "IA, tecnología y estrategia aplicadas a problemas reales de negocio",
+    "subtitle": "Ayudo a los equipos a entender el problema, diseñar la solución correcta y construirla, usando IA donde acorta el camino entre una idea y un resultado validado.",
     "secondaryCta": "Ver casos y enfoque",
     "imagePlaceholder": "Tu foto de estudio aquí",
     "imageAlt": "Retrato de estudio de Lucho (placeholder)",
     "proof": {
-      "delivery": "Entrega inicial en 7-14 días",
-      "focus": "Enfoque en conversión y SEO técnico",
-      "roi": "Decisiones guiadas por métricas"
+      "delivery": "Entender el problema antes de construir",
+      "focus": "Validar antes de sobreconstruir",
+      "roi": "Usar IA donde aporta valor"
     },
-    "proofLabel": "Diferenciales clave"
+    "proofLabel": "Principios",
+    "primaryCta": "Conversar sobre un reto"
   },
   "services": {
-    "title": "Servicios para crecer online",
-    "subtitle": "Diseño y desarrollo web con visión de negocio, potenciado con IA en cada etapa para acelerar entregas y mejorar conversión.",
+    "title": "Del problema de negocio a una solución funcionando",
+    "subtitle": "Capacidades organizadas por resultado, no por herramienta.",
     "items": {
-      "customDev": {
-        "title": "Desarrollo web a la medida",
-        "desc": "Aplicaciones y sitios hechos desde cero, optimizados y escalables, con arquitectura moderna y asistentes de IA para iterar más rápido."
+      "strategy": {
+        "title": "Estrategia de IA y tecnología",
+        "desc": "Identificar dónde la IA y la tecnología generan valor real, y dónde no."
       },
-      "saas": {
-        "title": "Construcción de SaaS",
-        "desc": "Plataformas robustas y seguras listas para escalar, con autenticación, pagos y flujos asistidos por IA para automatizar operaciones."
+      "product": {
+        "title": "Desarrollo de productos digitales",
+        "desc": "Del descubrimiento al lanzamiento y la iteración, con claridad sobre usuarios y objetivos de negocio."
       },
-      "ecommerce": {
-        "title": "Tiendas en línea",
-        "desc": "Soluciones en WooCommerce o Shopify, con integración de pagos, inventarios y experiencia de compra fluida."
+      "architecture": {
+        "title": "Arquitectura de soluciones",
+        "desc": "Sistemas diseñados para ser mantenibles, seguros y listos para escalar."
       },
-      "landing": {
-        "title": "Landing pages",
-        "desc": "Landings centradas en conversión con IA para ideación, copy, tests A/B y mejora continua basada en datos."
+      "poc": {
+        "title": "Desarrollo de PoC y MVP",
+        "desc": "Prototipos que se pueden probar para validar una idea antes de invertir en grande."
       },
-      "consulting": {
-        "title": "Consultoría web",
-        "desc": "Valido ideas, evalúo viabilidad técnica y económica, y elaboro presupuestos realistas según tus objetivos."
+      "leadership": {
+        "title": "Liderazgo técnico",
+        "desc": "Alinear negocio e ingeniería, guiar decisiones y liderar la ejecución."
       },
-      "teaching": {
-        "title": "Clases personalizadas de programación",
-        "desc": "Formación práctica y guiada, adaptada a tu nivel, con proyectos reales y herramientas modernas."
+      "automation": {
+        "title": "Automatización con IA",
+        "desc": "Automatizar procesos y apoyar decisiones con IA, con las personas en el circuito."
       }
     },
-    "eyebrow": "Oferta principal"
+    "eyebrow": "Capacidades"
   },
   "work": {
     "title": "Resultados y proyectos",
@@ -95,22 +95,55 @@
     "eyebrow": "Prueba social"
   },
   "about": {
-    "title": "Tu aliado digital",
-    "intro": "Soy Luis Rodríguez (Lucho Web). Llevo 14 años ayudando a empresas y emprendedores a lanzar y optimizar productos digitales con enfoque comercial.",
-    "experience": "Mis inicios fueron como desarrollador PHP, y con el tiempo evolucioné hacia el Frontend. Durante más de 9 años he trabajado con WordPress, forjando un perfil sólido como desarrollador full-stack.",
-    "modern": "En los últimos 5 años he trabajado con tecnologías modernas como React, Node y Vue, aplicando metodologías ágiles, control de versiones con Git y buenas prácticas que garantizan calidad y escalabilidad.",
-    "ai": "En los últimos 2 años integré IA en todo mi flujo de trabajo: investigación, diseño UX/UI, desarrollo, QA y despliegue. Esto me permite entregar más rápido, con mejor calidad y foco total en resultados de negocio.",
-    "highlightsTitle": "Lo que aporto a tu proyecto",
-    "highlights": {
-      "fullstack": "Más de una década desarrollando proyectos full-stack y personalizaciones complejas.",
-      "tech": "Experiencia con React, Node, Vue, PHP, y ecosistemas WordPress.",
-      "methodologies": "Adopción de metodologías ágiles y control de versiones profesional con Git.",
-      "evolution": "He vivido la evolución de la web: de las tablas a Flex y Grid, del auge de jQuery al dominio de los frameworks modernos."
-    }
+    "badge": "Enfoque",
+    "title": "Tecnología con criterio",
+    "intro": "La tecnología es el medio; el objetivo es resolver el problema correcto. Combino comprensión de negocio con profundidad técnica para definir soluciones y liderar su ejecución.",
+    "ai": "La IA no es solo programar más rápido. Aplicada a todo el ciclo, reduce el tiempo entre un problema de negocio y una solución validada.",
+    "aiLabel": "IA a lo largo del ciclo",
+    "aiStages": [
+      "Descubrimiento",
+      "Entrevistas con stakeholders",
+      "Requerimientos",
+      "Análisis de procesos",
+      "Prototipo y PoC",
+      "Desarrollo",
+      "Pruebas",
+      "Documentación",
+      "Análisis de datos",
+      "Automatización"
+    ],
+    "approachTitle": "Cómo trabajo",
+    "steps": [
+      {
+        "title": "Entender",
+        "desc": "El problema, las personas y el contexto."
+      },
+      {
+        "title": "Definir",
+        "desc": "Alcance, criterios de éxito y la solución adecuada."
+      },
+      {
+        "title": "Validar",
+        "desc": "Prototipo o PoC antes de comprometerse."
+      },
+      {
+        "title": "Construir",
+        "desc": "Ingeniería sólida, asistida por IA."
+      },
+      {
+        "title": "Medir",
+        "desc": "Resultados frente al objetivo original."
+      },
+      {
+        "title": "Mejorar",
+        "desc": "Iterar con evidencia, no con suposiciones."
+      }
+    ],
+    "depth": "Profundidad técnica: ingeniería de software, arquitectura, APIs, nube, DevOps, escalabilidad y desarrollo asistido por IA."
   },
   "contact": {
-    "title": "¿Listo para tu siguiente versión digital?",
-    "subtitle": "Cuéntame tu objetivo comercial y te propongo una ruta clara de ejecución, tiempos y alcance desde la primera conversación.",
+    "title": "¿Tienes un reto tecnológico que valga la pena explorar?",
+    "subtitle": "Cuéntame el problema o la idea. Lo revisamos juntos y definimos un siguiente paso razonable.",
     "call": {
       "title": "Llamada directa",
       "desc": "Hablemos ahora mismo y revisemos tu caso.",
@@ -118,28 +151,28 @@
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "desc": "Mensaje rápido para agendar una reunión o resolver dudas.",
+      "desc": "Un mensaje rápido para iniciar la conversación.",
       "cta": "Escribir a",
-      "prefilled": "Hola Lucho Web, quiero hablar sobre un proyecto",
+      "prefilled": "Hola Lucho, quiero conversar sobre un reto tecnológico",
       "subject": "Consulta de servicios web",
       "body": "Hola Lucho, me gustaría conversar sobre..."
     },
     "email": {
       "title": "Correo",
-      "desc": "Comparte el contexto de tu proyecto para ayudarte.",
+      "desc": "Comparte algo de contexto y te respondo con los siguientes pasos.",
       "cta": "Enviar correo ahora",
-      "subject": "Consulta de servicios web",
+      "subject": "Reto tecnológico",
       "body": "Hola Lucho, me gustaría conversar sobre..."
     },
     "points": {
       "response": "Respuesta inicial en menos de 24 horas hábiles.",
-      "discovery": "Llamada de descubrimiento con foco en objetivos de negocio.",
-      "ethics": "Alcance, tiempos y costos claros desde el inicio."
+      "discovery": "Primera conversación centrada en el problema, no en la solución.",
+      "ethics": "Evaluación honesta, incluso cuando un proyecto no vale la pena construirlo."
     },
     "note": "Al hacer clic se abrirá tu app predeterminada (teléfono, WhatsApp o correo)."
   },
   "footer": {
-    "tagline": "Diseño, tecnología y estrategia para convertir visitas en clientes.",
+    "tagline": "Estrategia tecnológica, IA y soluciones digitales.",
     "rights": "Todos los derechos reservados."
   },
   "social": {

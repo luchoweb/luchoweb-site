@@ -2,9 +2,9 @@
   "logo": "<LuchoWeb />",
   "nav": {
     "home": "Home",
-    "services": "Services",
+    "services": "Capabilities",
     "work": "Work",
-    "about": "About",
+    "about": "Approach",
     "contact": "Contact"
   },
   "cta": {
@@ -16,50 +16,50 @@
     "close": "Close menu"
   },
   "hero": {
-    "badge": "{{years}} years of experience",
-    "title": "I turn ideas into digital assets that sell",
-    "subtitle": "I build landing pages, websites, and web products focused on outcomes. Over the last 2 years, I integrated AI into every stage: strategy, UX, copy, development, testing, and SEO optimization.",
-    "primaryCta": "I want more sales",
+    "badge": "{{years}} years in technology",
+    "title": "AI, technology and strategy, applied to real business problems",
+    "subtitle": "I help teams understand the problem, design the right solution and get it built, using AI where it shortens the path from idea to validated result.",
     "secondaryCta": "See approach & cases",
     "imagePlaceholder": "Your studio photo here",
     "imageAlt": "Studio portrait of Lucho (placeholder)",
     "proof": {
-      "delivery": "First delivery in 7-14 days",
-      "focus": "Conversion-focused UX + technical SEO",
-      "roi": "Decisions backed by metrics"
+      "delivery": "Understand the problem before building",
+      "focus": "Validate before over-building",
+      "roi": "Use AI where it adds value"
     },
-    "proofLabel": "Key differentiators"
+    "proofLabel": "Principles",
+    "primaryCta": "Discuss a challenge"
   },
   "services": {
-    "title": "Services built for growth",
-    "subtitle": "Business-oriented web design and development, enhanced with AI at every step to speed up delivery and improve conversion.",
+    "title": "From business problem to working solution",
+    "subtitle": "Capabilities organized around the outcome, not the tool.",
     "items": {
-      "customDev": {
-        "title": "Custom Web Development",
-        "desc": "From-scratch applications and sites—optimized and scalable—with modern architecture and AI-assisted iteration for faster execution."
+      "strategy": {
+        "title": "AI & Technology Strategy",
+        "desc": "Identify where AI and technology create real value, and where they don't."
       },
-      "saas": {
-        "title": "SaaS Development",
-        "desc": "Robust, secure platforms built to scale, with authentication, payments, and AI-assisted workflows that automate operations."
+      "product": {
+        "title": "Digital Product Development",
+        "desc": "From discovery to launch and iteration, with a clear view of users and business goals."
       },
-      "ecommerce": {
-        "title": "Online Stores",
-        "desc": "WooCommerce or Shopify setups with seamless checkout, payment integrations, and inventory control."
+      "architecture": {
+        "title": "Solution Architecture",
+        "desc": "Systems designed to be maintainable, secure and ready to scale."
       },
-      "landing": {
-        "title": "Landing Pages",
-        "desc": "Conversion-focused landing pages using AI for ideation, copywriting, A/B testing, and continuous optimization from data."
+      "poc": {
+        "title": "PoC & MVP Development",
+        "desc": "Testable prototypes that validate an idea before significant investment."
       },
-      "consulting": {
-        "title": "Web Consulting",
-        "desc": "Validate ideas, assess technical and financial feasibility, and receive realistic budgeting guidance."
+      "leadership": {
+        "title": "Technical Leadership",
+        "desc": "Aligning business and engineering, guiding decisions and leading execution."
       },
-      "teaching": {
-        "title": "Personalized Programming Classes",
-        "desc": "Hands-on mentorship tailored to your level, using real projects and modern tools."
+      "automation": {
+        "title": "AI Automation",
+        "desc": "Automating processes and supporting decisions with AI, with people in the loop."
       }
     },
-    "eyebrow": "Core offering"
+    "eyebrow": "Capabilities"
   },
   "work": {
     "title": "Results and selected work",
@@ -95,22 +95,55 @@
     "eyebrow": "Social proof"
   },
   "about": {
-    "title": "Your digital growth partner",
-    "intro": "I’m Luis Rodríguez (Lucho Web). For 14 years, I’ve helped companies and founders launch and optimize digital products with a commercial mindset.",
-    "experience": "I began as a PHP developer, then shifted toward the Frontend world. After 9+ years working with WordPress, I built a strong full-stack profile.",
-    "modern": "In the last 5 years, I've worked with modern stacks like React, Node, and Vue, following agile methodologies, using Git version control, and embracing clean scalable code practices.",
-    "ai": "In the last 2 years, I integrated AI into my entire workflow: research, UX/UI design, development, QA, and deployment. That helps me ship faster, with better quality, and a stronger focus on business outcomes.",
-    "highlightsTitle": "What I bring to your project",
-    "highlights": {
-      "fullstack": "Over a decade of full-stack development and complex custom builds.",
-      "tech": "Experience with React, Node, Vue, PHP, and the WordPress ecosystem.",
-      "methodologies": "Skilled in agile workflows and professional version control with Git.",
-      "evolution": "Witnessed the web's evolution—from table layouts to Flex and Grid, from jQuery's rise to the reign of modern frameworks."
-    }
+    "badge": "Approach",
+    "title": "Technology with judgment",
+    "intro": "The technology is the means; the goal is solving the right problem. I combine business understanding with technical depth to define solutions and lead their execution.",
+    "ai": "AI is more than faster coding. Applied across the whole cycle, it shortens the time between a business problem and a validated solution.",
+    "aiLabel": "AI across the cycle",
+    "aiStages": [
+      "Discovery",
+      "Stakeholder interviews",
+      "Requirements",
+      "Process analysis",
+      "Prototype & PoC",
+      "Development",
+      "Testing",
+      "Documentation",
+      "Data analysis",
+      "Automation"
+    ],
+    "approachTitle": "How I work",
+    "steps": [
+      {
+        "title": "Understand",
+        "desc": "The problem, the people and the context."
+      },
+      {
+        "title": "Define",
+        "desc": "Scope, success criteria and the right solution."
+      },
+      {
+        "title": "Validate",
+        "desc": "Prototype or PoC before committing."
+      },
+      {
+        "title": "Build",
+        "desc": "Solid engineering, AI-assisted."
+      },
+      {
+        "title": "Measure",
+        "desc": "Results against the original goal."
+      },
+      {
+        "title": "Improve",
+        "desc": "Iterate on evidence, not assumptions."
+      }
+    ],
+    "depth": "Technical depth: software engineering, architecture, APIs, cloud, DevOps, scalability and AI-assisted development."
   },
   "contact": {
-    "title": "Ready for your next digital version?",
-    "subtitle": "Share your business goal and I’ll propose a clear execution roadmap, timeline, and scope from the first conversation.",
+    "title": "Have a technology challenge worth exploring?",
+    "subtitle": "Tell me about the problem or idea. We'll look at it together and define a sensible next step.",
     "call": {
       "title": "Direct call",
       "desc": "Let's speak now and review your case.",
@@ -118,28 +151,28 @@
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "desc": "Send a quick message to schedule a call.",
+      "desc": "Send a quick message to start the conversation.",
       "cta": "Message",
-      "prefilled": "Hi Lucho Web, I'd like to talk about a project",
+      "prefilled": "Hi Lucho, I'd like to discuss a technology challenge",
       "subject": "Web services inquiry",
       "body": "Hi Lucho, I'd like to discuss..."
     },
     "email": {
       "title": "Email",
-      "desc": "Share your project context to get a concise proposal.",
+      "desc": "Share some context and I'll reply with next steps.",
       "cta": "Send an email now",
-      "subject": "Web services inquiry",
+      "subject": "Technology challenge",
       "body": "Hi Lucho, I'd like to discuss..."
     },
     "points": {
       "response": "Initial response in less than 24 business hours.",
-      "discovery": "Discovery call focused on business outcomes.",
-      "ethics": "Clear scope, timeline, and pricing from day one."
+      "discovery": "First conversation focused on the problem, not the solution.",
+      "ethics": "Honest assessment, including when a project isn't worth building."
     },
     "note": "Clicking a button will open your default app (phone, WhatsApp, or email)."
   },
   "footer": {
-    "tagline": "Design, technology, and strategy to turn visitors into customers.",
+    "tagline": "Technology strategy, AI and digital solutions.",
     "rights": "All rights reserved."
   },
   "social": {
