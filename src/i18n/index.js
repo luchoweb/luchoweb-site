@@ -28,7 +28,7 @@ i18n
     });
 
 const syncDocumentLang = (lng) => {
-    document.documentElement.lang = (lng || 'es').toLowerCase().startsWith('en') ? 'en' : 'es-CO';
+    document.documentElement.lang = (lng || 'es').toLowerCase().startsWith('en') ? 'en-US' : 'es-CO';
 };
 
 i18n.on('languageChanged', syncDocumentLang);
