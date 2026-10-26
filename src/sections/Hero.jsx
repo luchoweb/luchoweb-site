@@ -1,67 +1,56 @@
 import { useTranslation } from "react-i18next";
+import { ArrowRight } from "lucide-react";
 
 export default function Hero({ years = 14 }) {
   const { t } = useTranslation();
-  const proof = [
-    t("hero.proof.delivery"),
-    t("hero.proof.focus"),
-    t("hero.proof.roi"),
-  ];
+  const proof = t("hero.proof", { returnObjects: true, years });
 
   return (
-    <section id="home" className="relative overflow-hidden bg-transparent">
-      {/* Decorative glow */}
+    <section id="home" aria-labelledby="hero-title" className="relative overflow-hidden">
       <div
-        aria-hidden
-        className="pointer-events-none absolute -top-20 right-[-20%] h-[30rem] w-[65%] rounded-full bg-cyan-500/10 blur-3xl"
+        aria-hidden="true"
+        className="pointer-events-none absolute -top-24 right-[-15%] h-[32rem] w-[60%] rounded-full bg-cyan-500/10 blur-3xl"
       />
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid items-center gap-10 py-20 lg:grid-cols-2 lg:py-28">
-          {/* Copy */}
-          <div>
-            <div className="mb-5 inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-slate-400">
-              <span>{t("hero.badge", { years })}</span>
-            </div>
-            <h1 className="text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-5xl">
-              {t("hero.title")}
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div className="grid items-center gap-12 pb-16 pt-28 lg:grid-cols-12 lg:pb-24 lg:pt-36">
+          <div className="lg:col-span-7">
+            <p className="mb-6 text-xs font-medium uppercase tracking-[0.18em] text-cyan-300">
+              {t("hero.eyebrow", { years })}
+            </p>
+            <h1
+              id="hero-title"
+              className="text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl"
+            >
+              {t("hero.title")}{" "}
+              <span className="bg-gradient-to-r from-cyan-200 to-violet-300 bg-clip-text text-transparent">
+                {t("hero.titleAccent")}
+              </span>
             </h1>
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-300">
               {t("hero.subtitle")}
             </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
+            <div className="mt-9 flex flex-wrap items-center gap-3">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center rounded-xl border border-cyan-400/30 bg-cyan-400/10 px-5 py-2.5 text-sm font-medium text-cyan-100 shadow-sm transition hover:bg-cyan-400/20 hover:border-cyan-300/40"
+                className="group inline-flex items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-200"
               >
                 {t("hero.primaryCta")}
+                <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" aria-hidden="true" />
               </a>
-            </div>
-
-            <div className="mt-8 border-t border-white/10 pt-5">
-              <p className="mb-3 text-xs uppercase tracking-[0.18em] text-slate-500">
-                {t("hero.proofLabel")}
-              </p>
-              <ul className="grid items-stretch gap-3 sm:grid-cols-3">
-                {proof.map((item) => (
-                  <li
-                    key={item}
-                    className="flex h-full items-start gap-2 rounded-xl border border-white/10 bg-slate-900/30 px-3 py-3 text-xs leading-relaxed text-slate-300"
-                  >
-                    <span className="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-cyan-300/90" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
+              <a
+                href="#process"
+                className="inline-flex items-center rounded-xl border border-white/15 px-5 py-3 text-sm font-medium text-slate-200 transition hover:bg-white/10"
+              >
+                {t("hero.secondaryCta")}
+              </a>
             </div>
           </div>
 
-          {/* Placeholder image */}
-          <div className="relative mx-auto w-full max-w-[22rem] xl:max-w-[24rem]">
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl border border-white/15 bg-slate-900/70 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur">
-              <div className="absolute inset-0 bg-gradient-to-br from-slate-900/50 via-slate-950/50 to-slate-900/50" />
-              <div className="relative z-10 flex h-full w-full items-center justify-center">
+          <div className="lg:col-span-5">
+            <div className="relative mx-auto w-full max-w-[22rem]">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-white/15 bg-slate-900/70 shadow-[0_20px_60px_rgba(0,0,0,0.45)]">
                 <img
                   src="/me-site.jpeg"
                   alt={t("hero.imageAlt")}
@@ -70,13 +59,24 @@ export default function Hero({ years = 14 }) {
                   loading="eager"
                   decoding="async"
                   fetchPriority="high"
-                  sizes="(min-width: 1280px) 24rem, 22rem"
+                  sizes="22rem"
                   className="h-full w-full object-cover"
                 />
               </div>
-              <div className="pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset ring-white/10" />
             </div>
           </div>
+        </div>
+
+        <div className="border-t border-white/10 pb-16 pt-8">
+          <h2 className="sr-only">{t("hero.proofLabel")}</h2>
+          <dl className="grid gap-6 sm:grid-cols-3">
+            {proof.map((item) => (
+              <div key={item.label} className="flex flex-col-reverse gap-1">
+                <dt className="text-sm leading-relaxed text-slate-400">{item.label}</dt>
+                <dd className="text-3xl font-semibold tracking-tight text-white">{item.value}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </div>
     </section>

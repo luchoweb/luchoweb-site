@@ -1,11 +1,21 @@
 {
   "logo": "<LuchoWeb />",
+  "skip": "Skip to content",
+  "meta": {
+    "title": "Lucho Web | Technical leader who takes AI to production",
+    "description": "I turn ideas into real products, fast. A technical leader with AI in production: I solve the underlying problem and manage the team, budget and timeline so the product actually ships."
+  },
   "nav": {
-    "home": "Home",
-    "services": "Capabilities",
-    "work": "Work",
-    "about": "Approach",
+    "label": "Main navigation",
+    "value": "Why me",
+    "process": "How I work",
+    "production": "AI in production",
     "contact": "Contact"
+  },
+  "lang": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
   },
   "cta": {
     "letsTalk": "Let's talk"
@@ -16,168 +26,135 @@
     "close": "Close menu"
   },
   "hero": {
-    "badge": "{{years}} years in technology",
-    "title": "AI, technology and strategy, applied to real business problems",
-    "subtitle": "I help teams understand the problem, design the right solution and get it built, using AI where it shortens the path from idea to validated result.",
-    "secondaryCta": "See approach & cases",
-    "imagePlaceholder": "Your studio photo here",
-    "imageAlt": "Lucho, technology strategist and technical leader",
-    "proof": {
-      "delivery": "Understand the problem before building",
-      "focus": "Validate before over-building",
-      "roi": "Use AI where it adds value"
-    },
-    "proofLabel": "Principles",
-    "primaryCta": "Discuss a challenge"
+    "eyebrow": "Technical leader · AI in production · {{years}} years building software",
+    "title": "I turn ideas into real products.",
+    "titleAccent": "In weeks, not quarters.",
+    "subtitle": "I've already shipped AI to production, in front of real users. But AI and code are just my tools. What makes me the right call is getting to the root of the problem and managing the team, budget and timeline so the product actually ships.",
+    "primaryCta": "Tell me about your challenge",
+    "secondaryCta": "See how I work",
+    "imageAlt": "Portrait of Lucho, technical and product leader",
+    "proofLabel": "At a glance",
+    "proof": [
+      { "value": "{{years}}+", "label": "years building and leading software" },
+      { "value": "AI", "label": "in production, not in demos" },
+      { "value": "1", "label": "person accountable end to end: idea, team and delivery" }
+    ]
   },
-  "services": {
-    "title": "From business problem to working solution",
-    "subtitle": "Capabilities organized around the outcome, not the tool.",
+  "shift": {
+    "eyebrow": "My approach",
+    "title": "AI isn't the product. The solved problem is.",
+    "intro": "Anyone can wire an AI model into an app. The hard part is deciding what to build, what to leave out, and how to reach production with the team and budget you actually have.",
+    "toolsLabel": "The means",
+    "tools": ["AI models and agents", "Code and architecture", "Cloud and automation", "Data and integrations"],
+    "outcomeLabel": "What I actually deliver",
+    "outcome": ["A real problem, solved", "A product in users' hands", "A focused, unblocked team", "Timeline and budget under control"]
+  },
+  "value": {
+    "eyebrow": "Why me",
+    "title": "What makes me the right fit",
+    "subtitle": "Four things you'd usually need from different people, in a single accountable lead.",
     "items": {
-      "strategy": {
-        "title": "AI & Technology Strategy",
-        "desc": "Identify where AI and technology create real value, and where they don't."
+      "production": {
+        "title": "AI that's already in production",
+        "desc": "I don't talk about AI in theory. I've taken AI-powered solutions to production, with real users, measured costs and results you can review."
       },
-      "product": {
-        "title": "Digital Product Development",
-        "desc": "From discovery to launch and iteration, with a clear view of users and business goals."
+      "speed": {
+        "title": "From idea to product, fast",
+        "desc": "I cut scope down to what matters, validate early and deliver something usable within weeks. Speed comes from making the right calls, not from rushing."
       },
-      "architecture": {
-        "title": "Solution Architecture",
-        "desc": "Systems designed to be maintainable, secure and ready to scale."
-      },
-      "poc": {
-        "title": "PoC & MVP Development",
-        "desc": "Testable prototypes that validate an idea before significant investment."
+      "problems": {
+        "title": "Real problems, not hype-driven tech",
+        "desc": "I start with the business and the people living the problem. If AI isn't the answer, I'll tell you, and we'll find the one that is."
       },
       "leadership": {
-        "title": "Technical Leadership",
-        "desc": "Aligning business and engineering, guiding decisions and leading execution."
-      },
-      "automation": {
-        "title": "AI Automation",
-        "desc": "Automating processes and supporting decisions with AI, with people in the loop."
+        "title": "Teams, budget and timelines",
+        "desc": "I build and lead teams, prioritize with judgment, manage the budget and protect deadlines. You always know exactly where the project stands."
       }
-    },
-    "eyebrow": "Capabilities"
+    }
   },
-  "work": {
-    "title": "Results and selected work",
-    "subtitle": "Examples of solutions built to increase sales, scale operations, and strengthen each brand’s online presence.",
-    "thumbnailPlaceholder": "Project thumbnail",
-    "viewProject": "View project",
-    "items": {
-      "proj1": {
-        "title": "Project A — OTT Streaming",
-        "desc": "Modular frontend for an OTT platform with custom player and analytics."
-      },
-      "proj2": {
-        "title": "Project B — B2C E-commerce",
-        "desc": "Shopify store tuned for conversions with payments and newsletter integrations."
-      },
-      "proj3": {
-        "title": "Project C — Quotation SaaS",
-        "desc": "Multi-tenant app with auth, PDF generation, and fast quote delivery."
-      },
-      "proj4": {
-        "title": "Project D — Launch Landing",
-        "desc": "High-performance landing page focused on conversions and waitlist growth."
-      },
-      "proj5": {
-        "title": "Project E — Admin Dashboard",
-        "desc": "Real-time metrics, role management, and clean UX for operations."
-      },
-      "proj6": {
-        "title": "Project F — Corporate Site",
-        "desc": "Custom site with CMS and technical SEO ready to scale."
-      }
-    },
-    "eyebrow": "Social proof"
-  },
-  "about": {
-    "badge": "Approach",
-    "title": "Technology with judgment",
-    "intro": "The technology is the means; the goal is solving the right problem. I combine business understanding with technical depth to define solutions and lead their execution.",
-    "ai": "AI is more than faster coding. Applied across the whole cycle, it shortens the time between a business problem and a validated solution.",
-    "aiLabel": "AI across the cycle",
-    "aiStages": [
-      "Discovery",
-      "Stakeholder interviews",
-      "Requirements",
-      "Process analysis",
-      "Prototype & PoC",
-      "Development",
-      "Testing",
-      "Documentation",
-      "Data analysis",
-      "Automation"
-    ],
-    "approachTitle": "How I work",
+  "process": {
+    "eyebrow": "How I work",
+    "title": "A short, clear path from idea to production",
+    "subtitle": "Every stage ends with something concrete you can see, test or decide on.",
     "steps": [
       {
-        "title": "Understand",
-        "desc": "The problem, the people and the context."
+        "title": "Understand the problem",
+        "time": "Days",
+        "desc": "I talk to the people who live the problem, define what success looks like and what we won't build."
       },
       {
-        "title": "Define",
-        "desc": "Scope, success criteria and the right solution."
+        "title": "Validate the solution",
+        "time": "1–2 weeks",
+        "desc": "A working prototype, with AI where it adds value. We decide on evidence before making a big investment."
       },
       {
-        "title": "Validate",
-        "desc": "Prototype or PoC before committing."
+        "title": "Build and launch",
+        "time": "Weeks",
+        "desc": "A focused team with short, visible deliveries. We reach production with real users."
       },
       {
-        "title": "Build",
-        "desc": "Solid engineering, AI-assisted."
-      },
-      {
-        "title": "Measure",
-        "desc": "Results against the original goal."
-      },
-      {
-        "title": "Improve",
-        "desc": "Iterate on evidence, not assumptions."
+        "title": "Measure and improve",
+        "time": "Ongoing",
+        "desc": "We measure against the original goal, tune cost and quality, and keep the product improving."
       }
-    ],
-    "depth": "Technical depth: software engineering, architecture, APIs, cloud, DevOps, scalability and AI-assisted development."
+    ]
+  },
+  "production": {
+    "eyebrow": "AI in production",
+    "title": "A demo impresses. A product in production delivers.",
+    "subtitle": "The gap between an AI experiment and a reliable product lies in everything the demo doesn't show. That's what I take care of.",
+    "items": [
+      { "title": "Measurable quality", "desc": "Evals and test cases that tell you whether the AI is getting it right, before and after every change." },
+      { "title": "Costs under control", "desc": "The right model for each task and usage that's tracked, so the product stays profitable." },
+      { "title": "Security and data", "desc": "Protected data, clear permissions and well-defined limits on what the AI is allowed to do." },
+      { "title": "Humans in the loop", "desc": "AI assists and automates; critical decisions still have a human owner." }
+    ]
+  },
+  "fit": {
+    "title": "We should talk if…",
+    "items": [
+      "You have an idea or a process you want to turn into a product, and you need it shipped soon.",
+      "You've already tried AI, but it never made it past the demo or isn't delivering results.",
+      "Your team needs someone who connects business, technology and execution.",
+      "You need someone accountable for the outcome, not just the code."
+    ]
   },
   "contact": {
-    "title": "Have a technology challenge worth exploring?",
-    "subtitle": "Tell me about the problem or idea. We'll look at it together and define a sensible next step.",
+    "eyebrow": "Contact",
+    "title": "Got an idea that should already be in production?",
+    "subtitle": "Tell me about the problem, not the solution. In our first conversation, we'll figure out whether it's worth building and what the first step should be.",
     "call": {
-      "title": "Direct call",
-      "desc": "Let's speak now and review your case.",
+      "title": "Call",
+      "desc": "To go over your case right now.",
       "cta": "Call"
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "desc": "Send a quick message to start the conversation.",
+      "desc": "A quick message to get the conversation started.",
       "cta": "Message",
-      "prefilled": "Hi Lucho, I'd like to discuss a technology challenge",
-      "subject": "Web services inquiry",
-      "body": "Hi Lucho, I'd like to discuss..."
+      "prefilled": "Hi Lucho, I have an idea I'd like to take to production and would love to talk."
     },
     "email": {
       "title": "Email",
-      "desc": "Share some context and I'll reply with next steps.",
-      "cta": "Send an email now",
-      "subject": "Technology challenge",
-      "body": "Hi Lucho, I'd like to discuss..."
+      "desc": "If you'd rather share the context in detail.",
+      "cta": "Send an email",
+      "subject": "Idea to take to production",
+      "body": "Hi Lucho,\n\nThe problem I want to solve is...\n\nToday we handle it by...\n\nI'd like to have it ready by..."
     },
-    "points": {
-      "response": "Initial response in less than 24 business hours.",
-      "discovery": "First conversation focused on the problem, not the solution.",
-      "ethics": "Honest assessment, including when a project isn't worth building."
-    },
-    "note": "Clicking a button will open your default app (phone, WhatsApp, or email)."
+    "points": [
+      "I reply within one business day.",
+      "Our first conversation is about your problem, not my services.",
+      "If it isn't worth building, I'll tell you."
+    ],
+    "newTab": "(opens in a new tab)"
   },
   "footer": {
-    "tagline": "Technology strategy, AI and digital solutions.",
+    "tagline": "Ideas turned into real products, with AI in production and one person accountable end to end.",
     "rights": "All rights reserved."
   },
   "social": {
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "tiktok": "TikTok"
+    "linkedin": "Lucho on LinkedIn",
+    "github": "Lucho on GitHub",
+    "tiktok": "Lucho on TikTok"
   }
 }

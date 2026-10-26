@@ -27,12 +27,12 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-transparent border-t border-white/10">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-6 py-10 md:flex-row">
           {/* Brand + tagline */}
           <div className="text-center md:text-left">
             <div className="inline-flex items-center gap-2">
-              <span className="rounded-md bg-white/5 px-2 py-1 text-sm tracking-tight text-slate-200 ring-1 ring-inset ring-white/15 font-mono">
+              <span className="font-mono text-sm tracking-tight text-slate-200">
                 {t("logo")}
               </span>
             </div>
@@ -49,9 +49,8 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
               aria-label={t("social.linkedin")}
-              title={t("social.linkedin")}
             >
-              {Social.Linkedin({ className: "h-5 w-5" })}
+              {Social.Linkedin({ className: "h-5 w-5", "aria-hidden": true })}
             </a>
             <a
               href="https://github.com/luchoweb"
@@ -59,9 +58,8 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
               aria-label={t("social.github")}
-              title={t("social.github")}
             >
-              {Social.GitHub({ className: "h-5 w-5" })}
+              {Social.GitHub({ className: "h-5 w-5", "aria-hidden": true })}
             </a>
             <a
               href="https://www.tiktok.com/@luchoweb.dev"
@@ -69,7 +67,6 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
               aria-label={t("social.tiktok")}
-              title={t("social.tiktok")}
             >
               {Social.TikTok({ className: "h-5 w-5" })}
             </a>
@@ -77,7 +74,7 @@ export default function Footer() {
         </div>
 
         <div className="py-4">
-          <p className="text-center text-xs text-slate-500">
+          <p className="text-center text-xs text-slate-400">
             &copy; {year} Lucho Web · {t("footer.rights")}
           </p>
         </div>

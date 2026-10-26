@@ -1,11 +1,21 @@
 {
   "logo": "<LuchoWeb />",
+  "skip": "Saltar al contenido",
+  "meta": {
+    "title": "Lucho Web | Líder técnico que lleva la IA a producción",
+    "description": "Convierto ideas en productos reales en poco tiempo. Líder técnico con IA en producción: resuelvo el problema de fondo y gestiono equipo, recursos y tiempos para que el producto salga."
+  },
   "nav": {
-    "home": "Inicio",
-    "services": "Capacidades",
-    "work": "Trabajo",
-    "about": "Enfoque",
+    "label": "Navegación principal",
+    "value": "Por qué yo",
+    "process": "Cómo trabajo",
+    "production": "IA en producción",
     "contact": "Contacto"
+  },
+  "lang": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "English"
   },
   "cta": {
     "letsTalk": "Hablemos"
@@ -16,168 +26,135 @@
     "close": "Cerrar menú"
   },
   "hero": {
-    "badge": "{{years}} años en tecnología",
-    "title": "IA, tecnología y estrategia aplicadas a problemas reales de negocio",
-    "subtitle": "Ayudo a los equipos a entender el problema, diseñar la solución correcta y construirla, usando IA donde acorta el camino entre una idea y un resultado validado.",
-    "secondaryCta": "Ver casos y enfoque",
-    "imagePlaceholder": "Tu foto de estudio aquí",
-    "imageAlt": "Lucho, estratega tecnológico y líder técnico",
-    "proof": {
-      "delivery": "Entender el problema antes de construir",
-      "focus": "Validar antes de sobreconstruir",
-      "roi": "Usar IA donde aporta valor"
-    },
-    "proofLabel": "Principios",
-    "primaryCta": "Conversar sobre un reto"
+    "eyebrow": "Líder técnico · IA en producción · {{years}} años construyendo software",
+    "title": "Convierto ideas en productos reales.",
+    "titleAccent": "En semanas, no en trimestres.",
+    "subtitle": "Ya he puesto IA en producción, con usuarios reales. Pero la IA y el código son solo mis herramientas: lo que me hace la opción correcta es entender el problema de fondo y gestionar equipo, recursos y tiempos para que el producto salga.",
+    "primaryCta": "Cuéntame tu reto",
+    "secondaryCta": "Ver cómo trabajo",
+    "imageAlt": "Retrato de Lucho, líder técnico y de producto",
+    "proofLabel": "En resumen",
+    "proof": [
+      { "value": "{{years}}+", "label": "años construyendo y liderando software" },
+      { "value": "IA", "label": "en producción, no en demos" },
+      { "value": "1", "label": "responsable de punta a punta: idea, equipo y entrega" }
+    ]
   },
-  "services": {
-    "title": "Del problema de negocio a una solución funcionando",
-    "subtitle": "Capacidades organizadas por resultado, no por herramienta.",
+  "shift": {
+    "eyebrow": "Mi enfoque",
+    "title": "La IA no es el producto. El problema resuelto sí.",
+    "intro": "Cualquiera puede conectar un modelo de IA a una app. Lo difícil es decidir qué construir, qué dejar por fuera y cómo llegar a producción con el equipo y el presupuesto que existen.",
+    "toolsLabel": "Los medios",
+    "tools": ["Modelos de IA y agentes", "Código y arquitectura", "Nube y automatización", "Datos e integraciones"],
+    "outcomeLabel": "Lo que realmente entrego",
+    "outcome": ["Un problema real resuelto", "Un producto en manos de usuarios", "Un equipo enfocado y sin bloqueos", "Tiempos y presupuesto bajo control"]
+  },
+  "value": {
+    "eyebrow": "Por qué yo",
+    "title": "Lo que me hace la opción ideal",
+    "subtitle": "Cuatro cosas que normalmente necesitas de personas distintas, en un solo responsable.",
     "items": {
-      "strategy": {
-        "title": "Estrategia de IA y tecnología",
-        "desc": "Identificar dónde la IA y la tecnología generan valor real, y dónde no."
+      "production": {
+        "title": "IA que ya está en producción",
+        "desc": "No hablo de IA desde la teoría. He llevado soluciones con IA a producción, con usuarios reales, costos medidos y resultados que se pueden revisar."
       },
-      "product": {
-        "title": "Desarrollo de productos digitales",
-        "desc": "Del descubrimiento al lanzamiento y la iteración, con claridad sobre usuarios y objetivos de negocio."
+      "speed": {
+        "title": "De idea a producto, rápido",
+        "desc": "Reduzco el alcance a lo que importa, valido pronto y entrego algo usable en semanas. La velocidad sale de decidir bien, no de correr."
       },
-      "architecture": {
-        "title": "Arquitectura de soluciones",
-        "desc": "Sistemas diseñados para ser mantenibles, seguros y listos para escalar."
-      },
-      "poc": {
-        "title": "Desarrollo de PoC y MVP",
-        "desc": "Prototipos que se pueden probar para validar una idea antes de invertir en grande."
+      "problems": {
+        "title": "Problemas reales, no tecnología por moda",
+        "desc": "Empiezo por el negocio y por las personas que lo viven. Si la IA no es la respuesta, te lo digo y buscamos la que sí lo es."
       },
       "leadership": {
-        "title": "Liderazgo técnico",
-        "desc": "Alinear negocio e ingeniería, guiar decisiones y liderar la ejecución."
-      },
-      "automation": {
-        "title": "Automatización con IA",
-        "desc": "Automatizar procesos y apoyar decisiones con IA, con las personas en el circuito."
+        "title": "Equipos, recursos y tiempos",
+        "desc": "Armo y lidero equipos, priorizo con criterio, gestiono el presupuesto y protejo las fechas. Tú sabes en todo momento en qué va el proyecto."
       }
-    },
-    "eyebrow": "Capacidades"
+    }
   },
-  "work": {
-    "title": "Resultados y proyectos",
-    "subtitle": "Ejemplos de soluciones construidas para vender, escalar operaciones y mejorar la presencia digital de cada marca.",
-    "thumbnailPlaceholder": "Miniatura del proyecto",
-    "viewProject": "Ver proyecto",
-    "items": {
-      "proj1": {
-        "title": "Proyecto A — Streaming OTT",
-        "desc": "Frontend modular para plataforma OTT con reproductor custom y analítica."
-      },
-      "proj2": {
-        "title": "Proyecto B — E-commerce B2C",
-        "desc": "Tienda optimizada en Shopify con integraciones de pagos y newsletter."
-      },
-      "proj3": {
-        "title": "Proyecto C — SaaS de cotizaciones",
-        "desc": "App multi-tenant con autenticación, PDF y envío de cotizaciones en minutos."
-      },
-      "proj4": {
-        "title": "Proyecto D — Landing de lanzamiento",
-        "desc": "Landing de alto rendimiento enfocada en conversión y lista de espera."
-      },
-      "proj5": {
-        "title": "Proyecto E — Dashboard Admin",
-        "desc": "Panel con métricas en tiempo real y control de usuarios/roles."
-      },
-      "proj6": {
-        "title": "Proyecto F — Sitio corporativo",
-        "desc": "Sitio a medida con CMS y SEO técnico listo para escalar."
-      }
-    },
-    "eyebrow": "Prueba social"
-  },
-  "about": {
-    "badge": "Enfoque",
-    "title": "Tecnología con criterio",
-    "intro": "La tecnología es el medio; el objetivo es resolver el problema correcto. Combino comprensión de negocio con profundidad técnica para definir soluciones y liderar su ejecución.",
-    "ai": "La IA no es solo programar más rápido. Aplicada a todo el ciclo, reduce el tiempo entre un problema de negocio y una solución validada.",
-    "aiLabel": "IA a lo largo del ciclo",
-    "aiStages": [
-      "Descubrimiento",
-      "Entrevistas con stakeholders",
-      "Requerimientos",
-      "Análisis de procesos",
-      "Prototipo y PoC",
-      "Desarrollo",
-      "Pruebas",
-      "Documentación",
-      "Análisis de datos",
-      "Automatización"
-    ],
-    "approachTitle": "Cómo trabajo",
+  "process": {
+    "eyebrow": "Cómo trabajo",
+    "title": "Un camino corto y claro de la idea a producción",
+    "subtitle": "Cada etapa termina con algo concreto que puedes ver, probar o decidir.",
     "steps": [
       {
-        "title": "Entender",
-        "desc": "El problema, las personas y el contexto."
+        "title": "Entender el problema",
+        "time": "Días",
+        "desc": "Hablo con quienes viven el problema, defino qué significa éxito y qué no vamos a construir."
       },
       {
-        "title": "Definir",
-        "desc": "Alcance, criterios de éxito y la solución adecuada."
+        "title": "Validar la solución",
+        "time": "1–2 semanas",
+        "desc": "Un prototipo funcional con IA donde aporta valor. Decidimos con evidencia antes de invertir en grande."
       },
       {
-        "title": "Validar",
-        "desc": "Prototipo o PoC antes de comprometerse."
+        "title": "Construir y lanzar",
+        "time": "Semanas",
+        "desc": "Equipo enfocado, entregas cortas y visibles. Llegamos a producción con usuarios reales."
       },
       {
-        "title": "Construir",
-        "desc": "Ingeniería sólida, asistida por IA."
-      },
-      {
-        "title": "Medir",
-        "desc": "Resultados frente al objetivo original."
-      },
-      {
-        "title": "Mejorar",
-        "desc": "Iterar con evidencia, no con suposiciones."
+        "title": "Medir y mejorar",
+        "time": "Continuo",
+        "desc": "Medimos contra el objetivo inicial, ajustamos costos y calidad, y el producto sigue mejorando."
       }
-    ],
-    "depth": "Profundidad técnica: ingeniería de software, arquitectura, APIs, nube, DevOps, escalabilidad y desarrollo asistido por IA."
+    ]
+  },
+  "production": {
+    "eyebrow": "IA en producción",
+    "title": "Una demo impresiona. Un producto en producción responde.",
+    "subtitle": "La diferencia entre un experimento con IA y un producto confiable está en lo que no se ve en la demo. Eso es lo que cuido.",
+    "items": [
+      { "title": "Calidad medible", "desc": "Evaluaciones y casos de prueba para saber si la IA responde bien antes y después de cada cambio." },
+      { "title": "Costos bajo control", "desc": "El modelo adecuado para cada tarea y un consumo que se mide, para que el producto sea rentable." },
+      { "title": "Seguridad y datos", "desc": "Datos protegidos, permisos claros y límites definidos sobre lo que la IA puede hacer." },
+      { "title": "Personas en el circuito", "desc": "La IA asiste y automatiza; las decisiones críticas siguen teniendo un responsable humano." }
+    ]
+  },
+  "fit": {
+    "title": "Tiene sentido que hablemos si…",
+    "items": [
+      "Tienes una idea o un proceso que quieres convertir en producto, y necesitas que salga pronto.",
+      "Ya probaste con IA, pero no pasó de la demo o no está dando resultados.",
+      "Tu equipo necesita a alguien que conecte negocio, tecnología y ejecución.",
+      "Necesitas a una persona que responda por el resultado, no solo por el código."
+    ]
   },
   "contact": {
-    "title": "¿Tienes un reto tecnológico que valga la pena explorar?",
-    "subtitle": "Cuéntame el problema o la idea. Lo revisamos juntos y definimos un siguiente paso razonable.",
+    "eyebrow": "Contacto",
+    "title": "¿Tienes una idea que debería estar en producción?",
+    "subtitle": "Cuéntame el problema, no la solución. En la primera conversación revisamos si vale la pena construirlo y cuál sería el primer paso.",
     "call": {
-      "title": "Llamada directa",
-      "desc": "Hablemos ahora mismo y revisemos tu caso.",
-      "cta": "Llamar"
+      "title": "Llamada",
+      "desc": "Para revisar tu caso ahora mismo.",
+      "cta": "Llamar al"
     },
     "whatsapp": {
       "title": "WhatsApp",
-      "desc": "Un mensaje rápido para iniciar la conversación.",
-      "cta": "Escribir a",
-      "prefilled": "Hola Lucho, quiero conversar sobre un reto tecnológico",
-      "subject": "Consulta de servicios web",
-      "body": "Hola Lucho, me gustaría conversar sobre..."
+      "desc": "Un mensaje corto para empezar la conversación.",
+      "cta": "Escribir al",
+      "prefilled": "Hola Lucho, tengo una idea que quiero llevar a producción y me gustaría conversar."
     },
     "email": {
       "title": "Correo",
-      "desc": "Comparte algo de contexto y te respondo con los siguientes pasos.",
-      "cta": "Enviar correo ahora",
-      "subject": "Reto tecnológico",
-      "body": "Hola Lucho, me gustaría conversar sobre..."
+      "desc": "Si prefieres contarme el contexto con calma.",
+      "cta": "Escribir un correo",
+      "subject": "Idea para llevar a producción",
+      "body": "Hola Lucho,\n\nEl problema que quiero resolver es...\n\nHoy lo estamos manejando así...\n\nMe gustaría tenerlo listo para..."
     },
-    "points": {
-      "response": "Respuesta inicial en menos de 24 horas hábiles.",
-      "discovery": "Primera conversación centrada en el problema, no en la solución.",
-      "ethics": "Evaluación honesta, incluso cuando un proyecto no vale la pena construirlo."
-    },
-    "note": "Al hacer clic se abrirá tu app predeterminada (teléfono, WhatsApp o correo)."
+    "points": [
+      "Respondo en menos de 24 horas hábiles.",
+      "La primera conversación es sobre tu problema, no sobre mis servicios.",
+      "Si no vale la pena construirlo, te lo digo."
+    ],
+    "newTab": "(se abre en una pestaña nueva)"
   },
   "footer": {
-    "tagline": "Estrategia tecnológica, IA y soluciones digitales.",
+    "tagline": "Ideas convertidas en productos reales, con IA en producción y un responsable de punta a punta.",
     "rights": "Todos los derechos reservados."
   },
   "social": {
-    "linkedin": "LinkedIn",
-    "github": "GitHub",
-    "tiktok": "TikTok"
+    "linkedin": "LinkedIn de Lucho",
+    "github": "GitHub de Lucho",
+    "tiktok": "TikTok de Lucho"
   }
 }

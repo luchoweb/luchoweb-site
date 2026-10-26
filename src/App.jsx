@@ -1,19 +1,25 @@
 import Header from "./components/Header";
 import Hero from "./sections/Hero";
-import Services from "./sections/Services";
-import About from "./sections/About";
+import Shift from "./sections/Shift";
+import Value from "./sections/Value";
+import Process from "./sections/Process";
+import Production from "./sections/Production";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <main className="landing">
+    <>
       <Header />
-      <Hero />
-      <Services />
-      <About />
-      <Contact />
+      <main id="main" tabIndex={-1} className="outline-none">
+        <Hero />
+        <Shift />
+        <Value />
+        <Process />
+        <Production />
+        <Contact />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
