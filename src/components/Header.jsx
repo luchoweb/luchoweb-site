@@ -27,24 +27,47 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const toggleRef = useRef(null);
   const closeRef = useRef(null);
-
-  useEffect(() => {
-    // lock scroll and handle Escape while the mobile menu is open
-    document.documentElement.style.overflow = open ? "hidden" : "";
-    if (!open) return;
-    closeRef.current?.focus();
-    const onKey = (e) => e.key === "Escape" && setOpen(false);
-    window.addEventListener("keydown", onKey);
-    return () => {
-      document.documentElement.style.overflow = "";
-      window.removeEventListener("keydown", onKey);
-    };
-  }, [open]);
+  const drawerRef = useRef(null);
 
   const close = () => {
     setOpen(false);
     toggleRef.current?.focus();
   };
+
+  useEffect(() => {
+    // while the mobile menu is open: lock scroll, make the page behind it
+    // inert, keep Tab inside the drawer and close on Escape
+    document.documentElement.style.overflow = open ? "hidden" : "";
+    if (!open) return;
+    const background = [document.getElementById("main"), document.querySelector("footer")];
+    background.forEach((el) => el?.setAttribute("inert", ""));
+    closeRef.current?.focus();
+
+    const onKey = (e) => {
+      if (e.key === "Escape") return close();
+      if (e.key !== "Tab") return;
+      const items = drawerRef.current?.querySelectorAll("a[href], button");
+      if (!items?.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      } else if (!drawerRef.current.contains(document.activeElement)) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.documentElement.style.overflow = "";
+      background.forEach((el) => el?.removeAttribute("inert"));
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
 
   return (
     <header
@@ -117,6 +140,7 @@ export default function Header() {
           ].join(" ")}
         />
         <div
+          ref={drawerRef}
           id="mobile-menu"
           role="dialog"
           aria-modal="true"
