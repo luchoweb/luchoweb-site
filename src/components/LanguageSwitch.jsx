@@ -5,6 +5,17 @@ const LANGS = [
   { code: "en", short: "EN" },
 ];
 
+// An explicit choice wins over a shared ?lang= link, so drop the parameter
+// once the visitor picks a language; otherwise a reload would undo it.
+const changeLang = (i18n, code) => {
+  const url = new URL(window.location.href);
+  if (url.searchParams.has("lang")) {
+    url.searchParams.delete("lang");
+    window.history.replaceState(null, "", url);
+  }
+  i18n.changeLanguage(code);
+};
+
 export default function LanguageSwitch({ className = "" }) {
   const { t, i18n } = useTranslation();
   const current = i18n.resolvedLanguage || "es";
@@ -24,7 +35,7 @@ export default function LanguageSwitch({ className = "" }) {
             lang={code === "es" ? "es-CO" : "en-US"}
             aria-pressed={active}
             aria-label={t(`lang.${code}`)}
-            onClick={() => i18n.changeLanguage(code)}
+            onClick={() => changeLang(i18n, code)}
             className={[
               "min-w-[2.75rem] rounded-md px-2.5 py-1.5 text-xs font-medium transition",
               "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300",
