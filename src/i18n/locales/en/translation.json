@@ -33,6 +33,8 @@
     "primaryCta": "Tell me about your challenge",
     "secondaryCta": "See how I work",
     "imageAlt": "Portrait of Lucho, technical and product leader",
+    "certsLabel": "Certifications",
+    "certs": ["SPLPC · Certiprof", "SFPC · Certiprof"],
     "proofLabel": "At a glance",
     "proof": [
       { "value": "{{years}}+", "label": "years building and leading software" },
@@ -68,7 +70,7 @@
       },
       "leadership": {
         "title": "Teams, budget and timelines",
-        "desc": "I build and lead teams, prioritize with judgment, manage the budget and protect deadlines. You always know exactly where the project stands."
+        "desc": "I build and lead teams, prioritize with judgment, manage the budget and protect deadlines. You always know exactly where the project stands. Certified by Certiprof (SPLPC and SFPC)."
       }
     }
   },

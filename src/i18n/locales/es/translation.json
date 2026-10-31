@@ -33,6 +33,8 @@
     "primaryCta": "Cuéntame tu reto",
     "secondaryCta": "Ver cómo trabajo",
     "imageAlt": "Retrato de Lucho, líder técnico y de producto",
+    "certsLabel": "Certificaciones",
+    "certs": ["SPLPC · Certiprof", "SFPC · Certiprof"],
     "proofLabel": "En resumen",
     "proof": [
       { "value": "{{years}}+", "label": "años construyendo y liderando software" },
@@ -68,7 +70,7 @@
       },
       "leadership": {
         "title": "Equipos, recursos y tiempos",
-        "desc": "Armo y lidero equipos, priorizo con criterio, gestiono el presupuesto y protejo las fechas. Tú sabes en todo momento en qué va el proyecto."
+        "desc": "Armo y lidero equipos, priorizo con criterio, gestiono el presupuesto y protejo las fechas. Tú sabes en todo momento en qué va el proyecto. Con certificaciones Certiprof (SPLPC y SFPC)."
       }
     }
   },
