@@ -34,7 +34,7 @@
     "secondaryCta": "See how I work",
     "imageAlt": "Portrait of Lucho, technical and product leader",
     "certsLabel": "Certifications",
-    "certs": ["SPLPC · Certiprof", "SFPC · Certiprof"],
+    "certs": ["Software Project Leader Professional Certification (SPLPC™) · Certiprof", "Scrum Foundation Professional Certificate (SFPC™) · Certiprof"],
     "proofLabel": "At a glance",
     "proof": [
       { "value": "{{years}}+", "label": "years building and leading software" },

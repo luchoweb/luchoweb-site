@@ -52,13 +52,13 @@ export default function Hero({ years = 14 }) {
               <span className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
                 {t("hero.certsLabel")}
               </span>
-              <ul className="flex flex-wrap gap-2">
+              <ul className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:flex-wrap">
                 {certs.map((cert) => (
                   <li
                     key={cert}
-                    className="inline-flex items-center gap-2 rounded-full border border-cyan-300/40 bg-cyan-300/10 px-3.5 py-1.5 text-sm font-medium text-cyan-100"
+                    className="inline-flex items-start gap-2 rounded-2xl border border-cyan-300/40 bg-cyan-300/10 px-3.5 py-1.5 text-sm font-medium text-cyan-100"
                   >
-                    <Award className="h-4 w-4 text-cyan-300" aria-hidden="true" />
+                    <Award className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" aria-hidden="true" />
                     {cert}
                   </li>
                 ))}
