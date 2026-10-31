@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Award } from "lucide-react";
 
 export default function Hero({ years = 14 }) {
   const { t } = useTranslation();
+  const certs = t("hero.certs", { returnObjects: true });
   const proof = t("hero.proof", { returnObjects: true, years });
 
   return (
@@ -45,6 +46,23 @@ export default function Hero({ years = 14 }) {
               >
                 {t("hero.secondaryCta")}
               </a>
+            </div>
+
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <span className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
+                {t("hero.certsLabel")}
+              </span>
+              <ul className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:flex-wrap">
+                {certs.map((cert) => (
+                  <li
+                    key={cert}
+                    className="inline-flex items-start gap-2 rounded-2xl border border-cyan-300/40 bg-cyan-300/10 px-3.5 py-1.5 text-sm font-medium text-cyan-100"
+                  >
+                    <Award className="mt-0.5 h-4 w-4 shrink-0 text-cyan-300" aria-hidden="true" />
+                    {cert}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
