@@ -10,6 +10,7 @@
     "value": "Por qué yo",
     "process": "Cómo trabajo",
     "production": "IA en producción",
+    "books": "Libros",
     "contact": "Contacto"
   },
   "lang": {
@@ -121,6 +122,17 @@
       "Necesitas a una persona que responda por el resultado, no solo por el código."
     ]
   },
+  "books": {
+    "eyebrow": "Libros",
+    "title": "Lo que aprendí, también por escrito",
+    "subtitle": "Dos libros publicados en Amazon sobre cómo usar la IA para lograr resultados reales.",
+    "items": [
+      { "title": "IA que factura" },
+      { "title": "Potencia tu talento con IA" }
+    ],
+    "byline": "Ver en Amazon",
+    "cta": "Ver mi perfil de autor en Amazon"
+  },
   "contact": {
     "eyebrow": "Contacto",
     "title": "¿Tienes una idea que debería estar en producción?",
@@ -157,6 +169,7 @@
   "social": {
     "linkedin": "LinkedIn de Lucho",
     "github": "GitHub de Lucho",
-    "tiktok": "TikTok de Lucho"
+    "tiktok": "TikTok de Lucho",
+    "amazon": "Lucho en Amazon (autor)"
   }
 }

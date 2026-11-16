@@ -10,6 +10,7 @@
     "value": "Why me",
     "process": "How I work",
     "production": "AI in production",
+    "books": "Books",
     "contact": "Contact"
   },
   "lang": {
@@ -121,6 +122,17 @@
       "You need someone accountable for the outcome, not just the code."
     ]
   },
+  "books": {
+    "eyebrow": "Books",
+    "title": "What I've learned, also in writing",
+    "subtitle": "Two books published on Amazon about using AI to get real results (in Spanish).",
+    "items": [
+      { "title": "IA que factura" },
+      { "title": "Potencia tu talento con IA" }
+    ],
+    "byline": "View on Amazon",
+    "cta": "See my Amazon author page"
+  },
   "contact": {
     "eyebrow": "Contact",
     "title": "Got an idea that should already be in production?",
@@ -157,6 +169,7 @@
   "social": {
     "linkedin": "Lucho on LinkedIn",
     "github": "Lucho on GitHub",
-    "tiktok": "Lucho on TikTok"
+    "tiktok": "Lucho on TikTok",
+    "amazon": "Lucho on Amazon (author)"
   }
 }

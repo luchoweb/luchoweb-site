@@ -1,4 +1,5 @@
-import { Github, Linkedin } from "lucide-react";
+import { BookOpen, Github, Linkedin } from "lucide-react";
+import { AMAZON_AUTHOR_URL } from "../sections/Books";
 import { useTranslation } from "react-i18next";
 
 const Social = {
@@ -69,6 +70,16 @@ export default function Footer() {
               aria-label={t("social.tiktok")}
             >
               {Social.TikTok({ className: "h-5 w-5" })}
+            </a>
+            <a
+              href={AMAZON_AUTHOR_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 ring-1 ring-inset ring-white/15 text-slate-300 hover:bg-white/10"
+              aria-label={t("social.amazon")}
+              title={t("social.amazon")}
+            >
+              <BookOpen className="h-5 w-5" aria-hidden="true" />
             </a>
           </div>
         </div>
