@@ -7,6 +7,7 @@ const NAV = [
   { key: "value", href: "#value" },
   { key: "process", href: "#process" },
   { key: "production", href: "#production" },
+  { key: "books", href: "#books" },
   { key: "contact", href: "#contact" },
 ];
 
