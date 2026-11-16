@@ -4,7 +4,10 @@ import SectionHeading from "../components/SectionHeading";
 
 export const AMAZON_AUTHOR_URL = "https://www.amazon.com/author/luchoweb";
 
-const COVERS = ["/books/ia-que-factura.webp", "/books/potencia-tu-talento-con-ia.webp"];
+const BOOKS = [
+  { cover: "/books/ia-que-factura.webp", href: "https://a.co/d/00NcNk6a" },
+  { cover: "/books/potencia-tu-talento-con-ia.webp", href: "https://a.co/d/0eTHMyhb" },
+];
 
 export default function Books() {
   const { t } = useTranslation();
@@ -36,13 +39,13 @@ export default function Books() {
           {items.map((item, i) => (
             <li key={item.title}>
               <a
-                href={AMAZON_AUTHOR_URL}
+                href={BOOKS[i].href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/50 p-3 transition hover:border-cyan-300/40 sm:p-4 hover:bg-slate-900/80"
               >
                 <img
-                  src={COVERS[i]}
+                  src={BOOKS[i].cover}
                   alt=""
                   width="600"
                   height="960"
