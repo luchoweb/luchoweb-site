@@ -4,8 +4,7 @@ import SectionHeading from "../components/SectionHeading";
 
 export const AMAZON_AUTHOR_URL = "https://www.amazon.com/author/luchoweb";
 
-// typographic covers: no cover images in the repo, so each book gets a tinted spine
-const COVER_TINTS = ["from-cyan-300/30 to-cyan-500/5", "from-sky-300/30 to-indigo-500/5"];
+const COVERS = ["/books/ia-que-factura.webp", "/books/potencia-tu-talento-con-ia.webp"];
 
 export default function Books() {
   const { t } = useTranslation();
@@ -33,28 +32,26 @@ export default function Books() {
           </a>
         </div>
 
-        <ul className="grid gap-5 sm:grid-cols-2">
+        <ul className="grid grid-cols-2 gap-4 sm:gap-6">
           {items.map((item, i) => (
             <li key={item.title}>
               <a
                 href={AMAZON_AUTHOR_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/50 p-4 transition hover:border-cyan-300/40 hover:bg-slate-900/80"
+                className="group flex h-full flex-col rounded-2xl border border-white/10 bg-slate-900/50 p-3 transition hover:border-cyan-300/40 sm:p-4 hover:bg-slate-900/80"
               >
-                <div
-                  className={[
-                    "relative flex aspect-[16/9] flex-col justify-between overflow-hidden rounded-xl bg-gradient-to-br p-5 pl-7 ring-1 ring-inset ring-white/10 sm:aspect-[4/3]",
-                    COVER_TINTS[i % COVER_TINTS.length],
-                  ].join(" ")}
-                >
-                  <span aria-hidden="true" className="absolute inset-y-0 left-0 w-2 bg-white/10" />
-                  <span className="font-mono text-xs tracking-tight text-slate-300">Lucho Web</span>
-                  <h3 className="text-xl font-semibold leading-tight tracking-tight text-white">
-                    {item.title}
-                  </h3>
-                </div>
-                <div className="mt-4 flex items-center justify-between gap-3 px-1 text-sm">
+                <img
+                  src={COVERS[i]}
+                  alt=""
+                  width="600"
+                  height="960"
+                  loading="lazy"
+                  decoding="async"
+                  className="aspect-[5/8] w-full rounded-lg object-cover shadow-lg shadow-black/40 ring-1 ring-white/10 transition duration-300 group-hover:-translate-y-1"
+                />
+                <h3 className="mt-4 px-1 font-semibold leading-snug text-white">{item.title}</h3>
+                <div className="mt-1 flex items-center justify-between gap-3 px-1 text-sm">
                   <span className="text-slate-300 transition group-hover:text-white">{t("books.byline")}</span>
                   <ArrowUpRight
                     className="h-5 w-5 shrink-0 text-slate-400 transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-cyan-300"
