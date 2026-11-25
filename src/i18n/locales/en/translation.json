@@ -125,10 +125,11 @@
   "books": {
     "eyebrow": "Books",
     "title": "What I've learned, also in writing",
-    "subtitle": "Two books published on Amazon about using AI to get real results (in Spanish).",
+    "subtitle": "Books published on Amazon: two about using AI to get real results (in Spanish), and a guide to understanding the programmers in your life.",
     "items": [
       { "title": "IA que factura" },
-      { "title": "Potencia tu talento con IA" }
+      { "title": "Potencia tu talento con IA" },
+      { "title": "Understanding your programmer" }
     ],
     "byline": "View on Amazon",
     "cta": "See my Amazon author page"
