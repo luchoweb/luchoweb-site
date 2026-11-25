@@ -7,8 +7,7 @@ export const AMAZON_AUTHOR_URL = "https://www.amazon.com/author/luchoweb";
 const BOOKS = [
   { cover: "/books/ia-que-factura.webp", href: "https://a.co/d/00NcNk6a" },
   { cover: "/books/potencia-tu-talento-con-ia.webp", href: "https://a.co/d/0eTHMyhb" },
-  // TODO: replace with the book's own Amazon link once Lucho shares it.
-  { cover: "/books/understanding-your-programmer.webp", href: AMAZON_AUTHOR_URL },
+  { cover: "/books/understanding-your-programmer.webp", href: "https://www.amazon.com/-/en/dp/B0HSS5Y3D8/ref=luchoweb" },
 ];
 
 export default function Books() {
