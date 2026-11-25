@@ -125,10 +125,11 @@
   "books": {
     "eyebrow": "Libros",
     "title": "Lo que aprendí, también por escrito",
-    "subtitle": "Dos libros publicados en Amazon sobre cómo usar la IA para lograr resultados reales.",
+    "subtitle": "Libros publicados en Amazon: dos sobre cómo usar la IA para lograr resultados reales y una guía (en inglés) para entender a los programadores de tu vida.",
     "items": [
       { "title": "IA que factura" },
-      { "title": "Potencia tu talento con IA" }
+      { "title": "Potencia tu talento con IA" },
+      { "title": "Understanding your programmer" }
     ],
     "byline": "Ver en Amazon",
     "cta": "Ver mi perfil de autor en Amazon"
